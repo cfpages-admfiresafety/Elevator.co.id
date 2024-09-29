@@ -1,9 +1,6 @@
-name: Fix Marquee IMG v.1
+name: Fix Marquee IMG v1
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -14,40 +11,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
       - name: Find and update <img> tags within <marquee>
         run: |
-          import os
-          import re
+          find . -name '*.html' | while read file; do
+            if grep -q '<marquee>' "$file"; then
+              # Backup the original file
+              cp "$file" "$file.bak"
+              
+              # Use sed to modify the style attribute of <img> tags within <marquee> tags
+              sed -i '/<marquee>/,/<\/marquee>/ {
+                /<img/s/style="/style="display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle; /
+              }' "$file"
+              
+              # Check if the file was modified and report changes
+              if ! diff "$file" "$file.bak" &> /dev/null; then
+                echo "Updated $file"
+              fi
 
-          # Specify the modification pattern
-          edit_style = "display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle;"
+              # Clean up the backup file
+              rm "$file.bak"
+            fi
+          done
 
-          # Search through .html files in the repository
-          for root, dirs, files in os.walk('.'):
-              for file in files:
-                  if file.endswith(".html"):
-                      file_path = os.path.join(root, file)
-                      with open(file_path, 'r', encoding='utf-8') as f:
-                          content = f.read()
-
-                      # Find <marquee> tags with <img> inside and edit the <img> tags
-                      new_content = re.sub(
-                          r'(<marquee>.*?<img[^>]*style=")([^"]*)(".*?>.*?</marquee>)',
-                          lambda match: f"{match.group(1)}{edit_style}; {match.group(2)}{match.group(3)}",
-                          content,
-                          flags=re.DOTALL
-                      )
-
-                      # Write changes back to the file if there are any
-                      if new_content != content:
-                          with open(file_path, 'w', encoding='utf-8') as f:
-                              f.write(new_content)
-                          
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
