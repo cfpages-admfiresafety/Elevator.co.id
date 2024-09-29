@@ -1,4 +1,4 @@
-name: Fix Marquee IMG v1.2
+name: Fix Marquee IMG v2
 on:
   workflow_dispatch:  # Allows manual triggering
   push:
@@ -11,35 +11,72 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: pip install beautifulsoup4
+
       - name: Find and update <img> tags within <marquee>
         run: |
-          find . -name '*.html' | while read file; do
-            if grep -q '<marquee>' "$file"; then
-              # Backup the original file
-              cp "$file" "$file.bak"
+          import os
+          from bs4 import BeautifulSoup
+
+          def process_file(file_path):
+              with open(file_path, 'r') as file:
+                  content = file.read()
               
-              # Use sed to modify the style attribute of <img> tags within <marquee> tags
-              sed -i '/<marquee>/,/<\/marquee>/ {
-                /<img/s/style="/style="display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle; /
-              }' "$file"
+              soup = BeautifulSoup(content, 'html.parser')
+              marquees = soup.find_all('marquee')
               
-              # Check if the file was modified and report changes
-              if ! diff "$file" "$file.bak" &> /dev/null; then
-                echo "Updated $file"
-              fi
-              # Clean up the backup file
-              rm "$file.bak"
-            fi
-          done
+              if not marquees:
+                  return False
+              
+              changed = False
+              for marquee in marquees:
+                  imgs = marquee.find_all('img')
+                  for img in imgs:
+                      current_style = img.get('style', '')
+                      new_style = f"{current_style} display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle;"
+                      img['style'] = new_style
+                      changed = True
+              
+              if changed:
+                  with open(file_path, 'w') as file:
+                      file.write(str(soup))
+                  print(f"Updated {file_path}")
+              
+              return changed
+
+          changed_files = []
+          for root, dirs, files in os.walk('.'):
+              for file in files:
+                  if file.endswith('.html'):
+                      file_path = os.path.join(root, file)
+                      if process_file(file_path):
+                          changed_files.append(file_path)
+
+          if changed_files:
+              print("Files changed:")
+              for file in changed_files:
+                  print(file)
+          else:
+              print("No changes made.")
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"changed={'true' if changed_files else 'false'}\n")
+        shell: python
+
       - name: Commit and push changes
+        if: steps.update_html.outputs.changed == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if ! git diff --quiet; then
-            git add .
-            git commit -m "Update <img> tags within <marquee> in HTML files"
-            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
-            git push origin HEAD:main
-          else
-            echo "No changes to commit."
-          fi
+          git add .
+          git commit -m "Update <img> tags within <marquee> in HTML files"
+          git push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
