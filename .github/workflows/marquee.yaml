@@ -1,0 +1,61 @@
+name: Fix Marquee IMG v.1
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Find and update <img> tags within <marquee>
+        run: |
+          import os
+          import re
+
+          # Specify the modification pattern
+          edit_style = "display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle;"
+
+          # Search through .html files in the repository
+          for root, dirs, files in os.walk('.'):
+              for file in files:
+                  if file.endswith(".html"):
+                      file_path = os.path.join(root, file)
+                      with open(file_path, 'r', encoding='utf-8') as f:
+                          content = f.read()
+
+                      # Find <marquee> tags with <img> inside and edit the <img> tags
+                      new_content = re.sub(
+                          r'(<marquee>.*?<img[^>]*style=")([^"]*)(".*?>.*?</marquee>)',
+                          lambda match: f"{match.group(1)}{edit_style}; {match.group(2)}{match.group(3)}",
+                          content,
+                          flags=re.DOTALL
+                      )
+
+                      # Write changes back to the file if there are any
+                      if new_content != content:
+                          with open(file_path, 'w', encoding='utf-8') as f:
+                              f.write(new_content)
+                          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Update <img> tags within <marquee> in HTML files"
+            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
