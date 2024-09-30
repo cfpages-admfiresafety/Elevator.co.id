@@ -1,4 +1,4 @@
-name: Fix Marquee IMG v2
+name: Fix Marquee IMG v3
 on:
   workflow_dispatch:  # Allows manual triggering
   push:
@@ -21,12 +21,13 @@ jobs:
         run: pip install beautifulsoup4
 
       - name: Find and update <img> tags within <marquee>
+        id: update_html
         run: |
           import os
           from bs4 import BeautifulSoup
 
           def process_file(file_path):
-              with open(file_path, 'r') as file:
+              with open(file_path, 'r', encoding='utf-8') as file:
                   content = file.read()
               
               soup = BeautifulSoup(content, 'html.parser')
@@ -40,12 +41,12 @@ jobs:
                   imgs = marquee.find_all('img')
                   for img in imgs:
                       current_style = img.get('style', '')
-                      new_style = f"{current_style} display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle;"
+                      new_style = f"{current_style} display: inline-block; height: 80px; margin-right: 20px; vertical-align: middle;".strip()
                       img['style'] = new_style
                       changed = True
               
               if changed:
-                  with open(file_path, 'w') as file:
+                  with open(file_path, 'w', encoding='utf-8') as file:
                       file.write(str(soup))
                   print(f"Updated {file_path}")
               
@@ -63,11 +64,10 @@ jobs:
               print("Files changed:")
               for file in changed_files:
                   print(file)
+              print("::set-output name=changed::true")
           else:
               print("No changes made.")
-
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"changed={'true' if changed_files else 'false'}\n")
+              print("::set-output name=changed::false")
         shell: python
 
       - name: Commit and push changes
@@ -77,6 +77,5 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .
           git commit -m "Update <img> tags within <marquee> in HTML files"
-          git push
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
+          git push origin HEAD:main
