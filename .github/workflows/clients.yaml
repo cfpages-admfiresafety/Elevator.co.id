@@ -1,4 +1,4 @@
-name: Update Multiple Clients v.6.6
+name: Update Multiple Clients v.6.7
 
 on:
   push:
@@ -82,26 +82,28 @@ jobs:
             PHONE=""
             FILTER=""
 
-            # Split using '|' and trim spaces
+            # Split using '|' and preserve spaces
             IFS='|' read -ra PARTS <<< "$LINE"
-            PARTS=("${PARTS[@]// /}")  # Remove leading/trailing spaces from each part
-
+            
             # Identify each part
             for PART in "${PARTS[@]}"; do
-              if [[ $PART == https://* ]]; then
-                if [[ $PART == *💬* ]]; then
-                  WAURL=$PART
-                elif [[ $PART == *📞* ]]; then
-                  PHURL=$PART
+              TRIMMED_PART="$(echo "$PART" | xargs)"  # Trim leading/trailing spaces but preserve internal spaces
+              if [[ $TRIMMED_PART == https://* ]]; then
+                if [[ $TRIMMED_PART == *💬* ]]; then
+                  WAURL=$TRIMMED_PART
+                elif [[ $TRIMMED_PART == *📞* ]]; then
+                  PHURL=$TRIMMED_PART
                 fi
-              elif [[ $PART =~ ^[0-9[:space:]]+$ ]]; then
-                PHONE=$PART
-              elif [[ $PART =~ [A-Z] ]]; then
-                NAME=$PART
+              elif [[ $TRIMMED_PART =~ ^[0-9[:space:]]+$ ]]; then
+                PHONE=$TRIMMED_PART
+              elif [[ $TRIMMED_PART =~ [A-Z] ]]; then
+                NAME=$TRIMMED_PART
               else
-                FILTER=$PART
+                FILTER=$TRIMMED_PART
               fi
             done
+
+            NEW_PHONE_NAME="${PHONE} (${NAME})"
 
             echo "Processing Client $CLIENT_NUM:"
             echo "WAURL: $WAURL"
@@ -109,8 +111,6 @@ jobs:
             echo "NAME: $NAME"
             echo "PHONE: $PHONE"
             echo "FILTER: $FILTER"
-
-            NEW_PHONE_NAME="${PHONE} (${NAME})"
 
             # Create a grep pattern from FILTER or use all HTML files if FILTER is empty
             if [ -n "$FILTER" ]; then
@@ -126,8 +126,13 @@ jobs:
             while IFS= read -r file; do
               # Extract current values for this file
               OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4}( [0-9]{4})? \([^)]+\)/ {print $3; exit}' "$file")
-              OLD_WAURL=$(awk -F'"' '/class="whatsapp-floating".*href="/ {for(i=1;i<=NF;i++) if($i~/^https?:/) {print $i; exit}}' "$file")
+              OLD_WAURL=$(awk -F'"' '/class="(whatsapp-floating|sms-floating)".*href="/ {for(i=1;i<=NF;i++) if($i~/^https?:/) {print $i; exit}}' "$file")
               OLD_PHURL=$(awk -F'"' '/class="tlp-floating".*href="/ {for(i=1;i<=NF;i++) if($i~/^https?:/) {print $i; exit}}' "$file")
+
+              echo "Current values in $file:"
+              echo "  Old Phone Name: $OLD_PHONE_NAME"
+              echo "  Old WA/SMS URL: $OLD_WAURL"
+              echo "  Old Phone URL: $OLD_PHURL"
 
               # Compare and update if different
               if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
@@ -138,6 +143,11 @@ jobs:
                 NEW_WAURL_ESCAPED=$(escape_for_sed "$WAURL")
                 OLD_PHURL_ESCAPED=$(escape_for_sed "$OLD_PHURL")
                 NEW_PHURL_ESCAPED=$(escape_for_sed "$PHURL")
+
+                echo "New values:"
+                echo "  New Phone Name: $NEW_PHONE_NAME"
+                echo "  New WA/SMS URL: $WAURL"
+                echo "  New Phone URL: $PHURL"
 
                 # Perform replacements
                 if [ -n "$OLD_PHONE_NAME" ] && [ -n "$NEW_PHONE_NAME" ]; then
