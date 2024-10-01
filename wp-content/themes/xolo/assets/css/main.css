@@ -1217,7 +1217,7 @@ body:not(.pagination-minimal):not(.pagination-outline):not(.pagination-fill) .pa
     height: auto;
     background-color: #ffffff;
     position: relative;
-    z-index: -1;    
+    z-index: 0;    
 }
 
 .footer-copyright:before,
