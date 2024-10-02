@@ -1,4 +1,4 @@
-name: Update Multiple Clients v.7
+name: Update Multiple Clients v.8
 
 on:
   push:
@@ -87,7 +87,7 @@ jobs:
             
             # Identify each part
             for PART in "${PARTS[@]}"; do
-              TRIMMED_PART="$(echo "$PART" | xargs)"  # Trim leading/trailing spaces but preserve internal spaces
+              TRIMMED_PART="$(echo "$PART" | xargs)"
               if [[ $TRIMMED_PART == https://* ]]; then
                 if [[ $TRIMMED_PART == *💬* ]]; then
                   WAURL=$TRIMMED_PART
@@ -124,34 +124,45 @@ jobs:
             # Update files
             CHANGES_MADE=false
             while IFS= read -r file; do
-              echo "Attempting to extract old WAURL and PHURL from file: $file"
+              echo "Attempting to extract information from file: $file"
+              
+              # Extract all necessary information
               OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4}( [0-9]{4})? \([^)]+\)/ {print $3; exit}' "$file")
+              OLD_PHONE=$(awk -F'[<>]' '/>[0-9]{4} [0-9]{4}( [0-9]{4})?</ {print $3; exit}' "$file")
+              OLD_NAME=$(awk -F'[<>]' '/>\([^)]+\)</ {print $3; exit}' "$file")
               OLD_WAURL=$(awk '/class="(whatsapp-floating|sms-floating)"/ { flag=1; next } flag && /href="/ { match($0, /href="([^"]+)"/, arr); if(arr[1]!="") { print arr[1]; exit } }' "$file")
               OLD_PHURL=$(awk '/class="tlp-floating"/ { flag=1; next } flag && /href="/ { match($0, /href="([^"]+)"/, arr); if(arr[1]!="") { print arr[1]; exit } }' "$file")
 
               echo "Current values in $file:"
               echo "  Old Phone Name: $OLD_PHONE_NAME"
+              echo "  Old Phone: $OLD_PHONE"
+              echo "  Old Name: $OLD_NAME"
               echo "  Old WA/SMS URL: $OLD_WAURL"
               echo "  Old Phone URL: $OLD_PHURL"
 
               # Compare and update if different
-              if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
-                # Escape special characters
+              if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_PHONE" != "$PHONE" ] || [ "$OLD_NAME" != "($NAME)" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
+                # Escape special characters for all variables
                 OLD_PHONE_NAME_ESCAPED=$(escape_for_sed "$OLD_PHONE_NAME")
                 NEW_PHONE_NAME_ESCAPED=$(escape_for_sed "$NEW_PHONE_NAME")
+                OLD_PHONE_ESCAPED=$(escape_for_sed "$OLD_PHONE")
+                NEW_PHONE_ESCAPED=$(escape_for_sed "$PHONE")
+                OLD_NAME_ESCAPED=$(escape_for_sed "$OLD_NAME")
+                NEW_NAME_ESCAPED=$(escape_for_sed "($NAME)")
                 OLD_WAURL_ESCAPED=$(escape_for_sed "$OLD_WAURL")
                 NEW_WAURL_ESCAPED=$(escape_for_sed "$WAURL")
                 OLD_PHURL_ESCAPED=$(escape_for_sed "$OLD_PHURL")
                 NEW_PHURL_ESCAPED=$(escape_for_sed "$PHURL")
 
-                echo "New values:"
-                echo "  New Phone Name: $NEW_PHONE_NAME"
-                echo "  New WA/SMS URL: $WAURL"
-                echo "  New Phone URL: $PHURL"
-
                 # Perform replacements
                 if [ -n "$OLD_PHONE_NAME" ] && [ -n "$NEW_PHONE_NAME" ]; then
                   sed -i "s|$OLD_PHONE_NAME_ESCAPED|$NEW_PHONE_NAME_ESCAPED|g" "$file"
+                fi
+                if [ -n "$OLD_PHONE" ] && [ -n "$PHONE" ]; then
+                  sed -i "s|$OLD_PHONE_ESCAPED|$NEW_PHONE_ESCAPED|g" "$file"
+                fi
+                if [ -n "$OLD_NAME" ] && [ -n "$NAME" ]; then
+                  sed -i "s|$OLD_NAME_ESCAPED|$NEW_NAME_ESCAPED|g" "$file"
                 fi
                 if [ -n "$OLD_WAURL" ] && [ -n "$WAURL" ]; then
                   sed -i "s|href=\"$OLD_WAURL_ESCAPED\"|href=\"$NEW_WAURL_ESCAPED\"|g" "$file"
