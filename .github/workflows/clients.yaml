@@ -143,14 +143,14 @@ jobs:
               echo "  Old Phone URL: $OLD_PHURL"
 
               # Compare and update if different
-              if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_PHONE" != "$PHONE" ] || [ "$OLD_NAME" != "($NAME)" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
+              if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_PHONE" != "$PHONE" ] || [ "$OLD_NAME" != "$NAME" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
                 # Escape special characters for all variables
                 OLD_PHONE_NAME_ESCAPED=$(escape_for_sed "$OLD_PHONE_NAME")
                 NEW_PHONE_NAME_ESCAPED=$(escape_for_sed "$NEW_PHONE_NAME")
                 OLD_PHONE_ESCAPED=$(escape_for_sed "$OLD_PHONE")
                 NEW_PHONE_ESCAPED=$(escape_for_sed "$PHONE")
                 OLD_NAME_ESCAPED=$(escape_for_sed "$OLD_NAME")
-                NEW_NAME_ESCAPED=$(escape_for_sed "($NAME)")
+                NEW_NAME_ESCAPED=$(escape_for_sed "$NAME")
                 OLD_WAURL_ESCAPED=$(escape_for_sed "$OLD_WAURL")
                 NEW_WAURL_ESCAPED=$(escape_for_sed "$WAURL")
                 OLD_PHURL_ESCAPED=$(escape_for_sed "$OLD_PHURL")
