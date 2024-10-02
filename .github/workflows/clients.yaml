@@ -1,4 +1,4 @@
-name: Update Multiple Clients v.8.1
+name: Update Multiple Clients v.8
 
 on:
   push:
@@ -128,8 +128,8 @@ jobs:
               
               # Extract all necessary information
               OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4}( [0-9]{4})? \([^)]+\)/ {print $3; exit}' "$file")
-              OLD_PHONE=$(awk -F'[<>]' '/>[0-9]{4} [0-9]{4}( [0-9]{4})?</ {print $4; exit}' "$file")
-              OLD_NAME=$(awk -F'[<>]' '/>\([^)]+\)</ {print $6; exit}' "$file")
+              OLD_PHONE=$(awk -F'[<>]' '/>[0-9]{4} [0-9]{4}( [0-9]{4})?</ {print $3; exit}' "$file")
+              OLD_NAME=$(awk -F'[<>]' '/>\([^)]+\)</ {print $3; exit}' "$file")
               OLD_WAURL=$(awk '/class="(whatsapp-floating|sms-floating)"/ { flag=1; next } flag && /href="/ { match($0, /href="([^"]+)"/, arr); if(arr[1]!="") { print arr[1]; exit } }' "$file")
               OLD_PHURL=$(awk '/class="tlp-floating"/ { flag=1; next } flag && /href="/ { match($0, /href="([^"]+)"/, arr); if(arr[1]!="") { print arr[1]; exit } }' "$file")
 
