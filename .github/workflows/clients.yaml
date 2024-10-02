@@ -1,4 +1,4 @@
-name: Update Multiple Clients v.6.8
+name: Update Multiple Clients v.6.9
 
 on:
   push:
@@ -124,10 +124,10 @@ jobs:
             # Update files
             CHANGES_MADE=false
             while IFS= read -r file; do
-              # Extract current values for this file
+              echo "Attempting to extract old WAURL and PHURL from file: $file"
               OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4}( [0-9]{4})? \([^)]+\)/ {print $3; exit}' "$file")
-              OLD_WAURL=$(awk -F'"' '/class="(whatsapp-floating|sms-floating)".*href="/ {for(i=1;i<=NF;i++) if($i~/^href=/){print $(i+1);exit}}' "$file")
-              OLD_PHURL=$(awk -F'"' '/class="tlp-floating".*href="/ {for(i=1;i<=NF;i++) if($i~/^href=/){print $(i+1);exit}}' "$file")
+              OLD_WAURL=$(awk '/class="(whatsapp-floating|sms-floating)"/{flag=1;next}flag&&/href="/{match($0,/href="([^"]+)"/,arr);if(arr[1]!=""){print arr[1];exit}}' "$file")
+              OLD_PHURL=$(awk '/class="tlp-floating"{flag=1;next}flag&&/href="/{match($0,/href="([^"]+)"/,arr);if(arr[1]!=""){print arr[1];exit}}' "$file")
 
               echo "Current values in $file:"
               echo "  Old Phone Name: $OLD_PHONE_NAME"
