@@ -2,8 +2,9 @@
 article_id: ELV-02-01
 title: "Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja"
 slug: "panduan-dasar-tipe-elevator-dan-use-case-selection-istilah-komponen-dan-cara-kerja"
-description: "Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Tipe elevator dan use-case selection relevan."
-status: outline
+description: "Panduan pengenalan tipe elevator, istilah, komponen, dan hubungan kerjanya agar Anda memiliki model mental sebelum menentukan kebutuhan proyek."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-03-29"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,65 +15,15 @@ reader_address: "Sobat Elevator.co.id"
 final_route: "/artikel/panduan-dasar-tipe-elevator-dan-use-case-selection-istilah-komponen-dan-cara-kerja.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/80553.html"
-  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
   - "https://www.iso.org/standard/73072.html"
   - "https://peraturan.bpk.go.id/Details/161846/pp-no-16"
-  - "https://www.iso.org/committee/53970/x/catalogue/"
+  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”
-- **Reader and situation:** Pembaca baru yang memerlukan model mental benar sebelum menentukan kebutuhan.
-- **Reader outcome:** Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Tipe elevator dan use-case selection relevan.
-- **Primary intent:** Memahami definisi, komponen, mekanisme, dan batas sistem Tipe elevator dan use-case selection.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Sobat Elevator.co.id`
-- **Natural variants:** `Kawan Elevator.co.id` and `Teman Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak membandingkan opsi atau menetapkan spesifikasi; intent tersebut dimiliki ELV-02-02 dan ELV-02-03.
-- **Final public route:** `/artikel/panduan-dasar-tipe-elevator-dan-use-case-selection-istilah-komponen-dan-cara-kerja.html`
-- **Appointed CMS date:** `2025-03-29` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Elevator.co.id`, `Kawan Elevator.co.id`, or `Teman Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,234 +34,70 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Sobat Elevator.co.id! Anda mungkin sedang melihat beberapa istilah elevator di brosur atau gambar awal, lalu bertanya: apakah semua elevator bekerja dengan cara yang sama? Jawaban singkatnya, tidak. Tipe dan cara penggunaan menentukan hubungan antara kabin, penggerak, pintu, rel, ruang luncur, kendali, dan sistem keselamatan. Sebelum membandingkan merek atau meminta harga, bangun dulu peta mental sistemnya.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Panduan ini membantu Anda mengenali istilah dan komponen, mengikuti alur kerja dasarnya, serta mengetahui kapan sebuah tipe elevator relevan untuk kebutuhan tertentu. Ini bukan halaman untuk memilih spesifikasi, menghitung kapasitas, atau menyimpulkan kepatuhan. Keputusan itu membutuhkan data bangunan, penggunaan, aturan yang berlaku, gambar terkoordinasi, dan pemeriksaan tenaga kompeten.
 
-### KR-01
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Ilustrasi umum dari aset lokal Elevator.co.id; bukan dokumentasi proyek tertentu.
 
-### KR-05
+## Apa yang dimaksud tipe elevator dan use-case selection?
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Istilah “tipe elevator” menyebut cara sistem mengangkat dan mengarahkan kabin, sedangkan *use case* berarti situasi pemakaian yang hendak dilayani. Pemilihan berbasis situasi (*use-case selection*) bukan sekadar memilih label penumpang atau barang; Anda mencocokkan siapa yang memakai, apa yang dibawa, pola perjalanan, kondisi bangunan, dan batas operasi.
 
-### KR-19
+Bayangkan gedung kantor, rumah sakit, dan gudang. Ketiganya sama-sama memindahkan orang atau barang secara vertikal, tetapi tuntutan pada pintu, kebersihan, waktu tunggu, perlindungan, dan akses petugas bisa berbeda. Karena itu, nama tipe hanya titik awal. [NEEDS PROJECT EVIDENCE: data penggunaan, dimensi ruang luncur, dan persyaratan lokal harus diverifikasi sebelum tipe dipilih.]
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Secara umum, sistem penggerak bisa menggunakan traksi—motor memutar puli dan tali atau sabuk untuk menggerakkan kabin—atau hidraulik—tekanan fluida mendorong piston. Ada pula perbedaan tata letak ruang mesin, posisi penggerak, dan cara penyeimbangan. Penjelasan ini memberi kosa kata, bukan rekomendasi salah satu sistem.
 
-### KR-20
+## Komponen utama yang perlu dikenali
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Nama komponen sering membuat pembaca mengira setiap bagian berdiri sendiri. Padahal elevator adalah rantai fungsi: perintah perjalanan memicu penggerak, penggerak menggerakkan kabin melalui elemen transmisi, rel menjaga arah, pintu mengatur akses, dan kendali keselamatan dapat menghentikan gerak ketika kondisi tidak aman.
 
-### KR-21
+Kabin adalah ruang yang membawa penumpang atau muatan. Lantai, dinding, pintu kabin, pencahayaan, tombol, dan komunikasi membentuk antarmuka pengguna. Kapasitas nominal tidak boleh ditebak dari tampilan; nilainya harus berasal dari dokumen dan penandaan aset yang berlaku untuk unit tersebut.
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Ruang luncur adalah jalur vertikal tempat kabin dan beban penyeimbang bergerak. Di dalamnya terdapat rel pemandu, penyangga, sakelar batas, serta ruang pit di bawah dan ruang atas di atas. Kondisi struktur, akses, dan perlindungan ruang ini memengaruhi rancangan dan pemeliharaan, sehingga sketsa arsitektur saja belum cukup menjadi bukti kelayakan.
 
-### KR-23
+Pada sistem traksi, motor dan puli traksi mengubah tenaga putar menjadi gerakan tali atau sabuk. Beban penyeimbang membantu menyeimbangkan massa kabin dan sebagian beban, tetapi keberadaannya tidak otomatis membuktikan kinerja atau keselamatan seluruh sistem. Pada sistem hidraulik, unit pompa, katup, fluida, dan silinder bekerja bersama; kecocokan setiap bagian perlu ditunjukkan dokumen pabrikan dan pemeriksaan yang relevan.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Pintu lantai dan pintu kabin membentuk penghalang pada setiap lantai. Kunci pintu (*interlock*) memastikan pintu tidak dibuka sembarangan ketika kondisi gerak belum memenuhi logika kendali. Istilah ini menjelaskan fungsi penguncian, bukan bukti bahwa semua pengujian unit sudah lulus. [NEEDS PROJECT EVIDENCE: catatan pemeriksaan dan pengujian unit tertentu diperlukan untuk menyimpulkan kondisi interlock.]
 
-### KR-24
+Panel kendali menerima panggilan lantai, membaca sensor posisi, mengatur kecepatan, dan berkomunikasi dengan perangkat keselamatan. Sensor, pengendali, rem, alarm, komunikasi dua arah, serta prosedur penyelamatan harus dipahami sebagai satu rantai. ISO 8100-20 menempatkan perlindungan pengguna dan personel pemeliharaan dalam konteks fungsi dan antarmuka sistem, bukan sebagai satu komponen yang berdiri sendiri ([ISO 8100-20](https://www.iso.org/standard/73072.html)).
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+## Bagaimana siklus perjalanan berlangsung?
 
-### KR-02
+Saat pengguna menekan tombol, sinyal panggilan masuk ke pengendali. Pengendali menilai posisi kabin, arah perjalanan, panggilan lain, dan status perangkat pengaman. Jika syarat terpenuhi, rem dilepas sesuai logika sistem dan penggerak mengatur gerak. Ketika sensor posisi membaca lantai tujuan, pengendali memperlambat kabin, menghentikannya, lalu menyelaraskan lantai sebelum pintu dibuka.
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Urutan itu menjelaskan mengapa elevator tidak boleh dinilai hanya dari “bisa naik dan turun”. Kesejajaran lantai, respons pintu, komunikasi, alarm, dan perilaku ketika ada gangguan adalah bagian dari pengalaman dan keselamatan sistem. Sebuah lampu indikator menyala bukan pengganti rekaman uji. Dalam konteks Indonesia, persyaratan teknis dan penerimaan bangunan tetap harus dicocokkan dengan aturan dan dokumen proyek yang berlaku; PP 16/2021 menjadi salah satu rujukan kerangka penyelenggaraan bangunan, bukan kalkulator otomatis untuk unit Anda ([PP 16/2021](https://peraturan.bpk.go.id/Details/161846/pp-no-16)).
 
-### KR-09
+Kawan Elevator.co.id, perhatikan juga keadaan di luar perjalanan normal. Listrik terputus, pintu terhalang, sensor memberi sinyal tidak wajar, atau komunikasi darurat gagal dapat membuat pengendali menahan operasi. Tindakan setelah itu bukan menebak tombol yang harus ditekan, melainkan mengikuti prosedur penyelamatan dan memanggil pihak berwenang sesuai rencana gedung.
 
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
+## Menghubungkan tipe dengan situasi pemakaian
 
-### KR-10
+Mulailah dari kegiatan, bukan dari nama produk. Tanyakan siapa pengguna utama, apakah ada troli atau barang panjang, berapa lantai yang dihubungkan, apakah lingkungan berdebu atau lembap, dan siapa yang akan mengakses ruang teknis. Jawaban ini mengubah kebutuhan antarmuka, perlindungan, akses, dan bukti pemeliharaan.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Untuk gedung dengan penumpang umum, perhatian biasanya tertuju pada akses lantai, komunikasi, kenyamanan, dan alur evakuasi yang ditentukan pengelola gedung. Untuk muatan atau servis, ukuran bukaan, ketahanan lantai, cara memuat, dan peran petugas menjadi pertanyaan berbeda. Jangan menyimpulkan bahwa elevator barang aman membawa penumpang, atau elevator penumpang otomatis cocok membawa material, tanpa keputusan desain dan dokumen unit.
 
-### KR-11
+Istilah *machine room* berarti ruang mesin, sementara *machine-room-less* berarti penggerak ditempatkan tanpa ruang mesin terpisah. Istilah ini membantu membaca gambar, tetapi tidak memberi jawaban tentang kebutuhan struktur, ventilasi, akses servis, atau penerimaan. Tanyakan dokumen apa yang mendasari tata letak tersebut dan siapa yang menyetujuinya.
 
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
+## Urutan pemeriksaan konseptual sebelum menentukan kebutuhan
 
-### KR-12
+Pertama, tulis tujuan layanan dalam satu kalimat: siapa bergerak dari mana ke mana, membawa apa, dan pada kondisi bangunan seperti apa. Kalimat ini mencegah diskusi bergeser menjadi adu fitur. Kedua, kumpulkan data bangunan—jumlah lantai, ruang luncur, pit, ruang atas, daya, akses, dan batas struktur—lalu tandai mana yang sudah diukur dan mana yang masih asumsi.
 
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
+Ketiga, cocokkan istilah pada gambar dengan komponen nyata: kabin, pintu, rel, penggerak, penyeimbang atau silinder, kendali, komunikasi, dan perangkat keselamatan. Keempat, catat bukti yang harus ada untuk setiap keputusan: lembar data unit, gambar terkoordinasi, catatan pemeriksaan, dan rekaman pengujian. ISO 8100-1 menekankan bahwa ruang lingkup lift, konstruksi, pemasangan, dan perlindungan orang atau barang harus dibaca bersama batas penerapannya, bukan dipisahkan dari konteks instalasi ([ISO 8100-1](https://www.iso.org/standard/80553.html)).
 
-### KR-16
+Terakhir, tentukan titik berhenti. Jika data ruang belum pasti, jalur evakuasi belum disepakati, atau dokumen pemeriksaan tidak cocok dengan identitas unit, jangan mengunci pilihan. [NEEDS TECHNICAL REVIEW: verifikasi kesesuaian terhadap adopsi standar Indonesia, aturan bangunan, dan riwayat unit oleh tenaga kompeten.]
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+## Jalan pintas yang sering menyesatkan
 
-### KR-18
+Jalan pintas yang umum adalah memilih tipe dari foto kabin, logo, atau kalimat “sesuai standar”. Bukti itu mungkin menunjukkan identitas pemasok, tetapi tidak membuktikan unit yang dikirim, pemasangan di lokasi, atau rantai keselamatan lengkap. Peraturan keselamatan kerja elevator juga membedakan peran, pemeriksaan, pengujian, dan rekaman; dokumen lama atau stiker pemeliharaan saja tidak cukup untuk menyimpulkan kondisi saat ini ([Permenaker No. 6 Tahun 2017](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf)).
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+Alternatif yang lebih aman adalah meminta daftar komponen dan batas sistem secara tertulis, mencocokkannya dengan gambar serta identitas aset, lalu meminta pemeriksaan yang relevan. Anda dapat memulai percakapan pemeliharaan melalui [layanan maintenance elevator di Yogyakarta](/maintenance-elevator-yogyakarta) atau [layanan maintenance elevator di Tuban](/maintenance-elevator-tuban), sambil tetap meminta bukti yang sesuai lokasi dan unit Anda. Tautan itu adalah langkah mencari bantuan, bukan pengganti persetujuan teknis.
 
-### KR-36
+## Kesimpulan: model mental dulu, keputusan kemudian
 
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
+Teman Elevator.co.id, tipe elevator menjelaskan cara penggerak dan susunan sistem bekerja; *use-case selection* menjelaskan situasi pemakaian yang hendak dilayani. Kenali alur dari panggilan, kendali, penggerak, kabin, pintu, rel, hingga perangkat keselamatan. Setelah itu, cocokkan istilah dengan data bangunan dan bukti unit, bukan dengan brosur semata.
 
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-38
-
-- **Original sources:** [ISO 8100-20:2018](https://www.iso.org/standard/73072.html).
-- **Purpose for this article:** Ground global essential safety requirements, risk reduction, users, maintenance/inspection personnel, components, functions, and lifecycle decisions.
-- **Safe grounded facts:** An interlock, governor, brake, alarm, rescue key, or maintenance contract alone does not prove the complete system or operational safety.
-- **Limits:** Verify the complete safety chain, interfaces, current risk assessment, test evidence, competent roles, maintenance/inspection regime, change history, emergency plan, and authority requirements.
-
-### KR-39
-
-- **Original sources:** [PP 16/2021 building implementation](https://peraturan.bpk.go.id/Details/161846/pp-no-16), [ISO lift standards catalogue](https://www.iso.org/committee/53970/x/catalogue/).
-- **Purpose for this article:** Ground traffic brief, shaft/pit/overhead and structure, power, doors/landings, accessibility, fire/emergency, communication, and commissioning interfaces.
-- **Safe grounded facts:** Rated load, speed, car size, shaft sketch, or traffic-calculator output does not prove service quality, structure, fire operation, accessible use, rescue, or acceptance.
-- **Limits:** Use measured building/use inputs, current local criteria and relevant lift standards, specialist traffic and engineering work, coordinated drawings, integrated tests, and authority acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/maintenance-elevator-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-02-02` → `/artikel/cara-menentukan-kebutuhan-tipe-elevator-dan-use-case-selection-sebelum-memilih-solusi.html` — Cara Menentukan Kebutuhan Tipe elevator dan use-case selection Sebelum Memilih Solusi
-- `ELV-02-03` → `/artikel/perbandingan-opsi-tipe-elevator-dan-use-case-selection-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Tipe elevator dan use-case selection: Kriteria, Trade-off, dan Red Flag
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Tipe elevator dan use-case selection: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah Anda berikutnya adalah membuat satu halaman berisi tujuan layanan, kondisi bangunan yang sudah terukur, istilah komponen yang muncul di gambar, serta dokumen yang masih kurang. Bawa halaman itu kepada perancang atau pemeriksa kompeten. Jangan membandingkan opsi atau menetapkan spesifikasi sebelum data dan batas penerapan diverifikasi; artikel ini memberi peta awal, bukan keputusan proyek final.

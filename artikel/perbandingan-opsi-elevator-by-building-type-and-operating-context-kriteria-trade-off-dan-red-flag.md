@@ -2,8 +2,9 @@
 article_id: ELV-15-03
 title: "Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag"
 slug: "perbandingan-opsi-elevator-by-building-type-and-operating-context-kriteria-trade-off-dan-red-flag"
-description: "Pembaca dapat membandingkan opsi pada dasar setara serta mengenali trade-off dan klaim yang perlu dibuktikan."
-status: outline
+description: "Panduan membandingkan pilihan elevator menurut fungsi gedung, konteks operasi, bukti performa, dan risiko sebelum membuat daftar pendek."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-06-02"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -17,62 +18,22 @@ sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
   - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
   - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/80553.html"
-  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
-  - "https://www.iso.org/standard/73072.html"
   - "https://peraturan.bpk.go.id/Details/161846/pp-no-16"
-  - "https://www.iso.org/committee/53970/x/catalogue/"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag
 
-## Assignment lock
+Halo, Teman Elevator.co.id! Kalau Anda sudah memahami kebutuhan gedung lalu mulai menyusun daftar pendek, dua opsi elevator bisa terlihat setara hanya karena sama-sama mencantumkan kapasitas dan kecepatan. Padahal, keputusan yang tepat bukan memilih angka paling tinggi atau penawaran paling murah. Pilihlah opsi yang paling cocok dengan pola pemakaian, ruang gedung, kemampuan operasi, bukti yang dapat ditelusuri, dan risiko yang sanggup dikelola.
 
-- **Writer task:** Expand this file into one complete article answering: “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”
-- **Reader and situation:** Pembeli atau desainer yang telah memahami kebutuhannya dan sedang membuat shortlist.
-- **Reader outcome:** Pembaca dapat membandingkan opsi pada dasar setara serta mengenali trade-off dan klaim yang perlu dibuktikan.
-- **Primary intent:** Membandingkan alternatif Elevator by building type and operating context berdasarkan fungsi, bukti performa, risiko, umur layanan, dan konteks.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Teman Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Kawan Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menjadi tutorial instalasi atau diagnosis kerusakan; intent tersebut dimiliki ELV-15-05 dan ELV-15-07.
-- **Final public route:** `/artikel/perbandingan-opsi-elevator-by-building-type-and-operating-context-kriteria-trade-off-dan-red-flag.html`
-- **Appointed CMS date:** `2026-06-02` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: bandingkan opsi pada dasar yang sama, lalu beri bobot pada fungsi gedung dan konteks operasinya. Gedung hunian dengan perjalanan pendek tidak otomatis membutuhkan paket yang sama dengan rumah sakit, hotel, gudang, atau gedung kantor. Angka pada brosur hanya menjadi titik awal; kesimpulan berubah bila data lalu lintas, ukuran ruang, kondisi lingkungan, layanan purna jual, atau bukti pengujian berbeda. Artikel ini membantu Anda memilih pertanyaan dan bukti, bukan menggantikan desain, instalasi, atau diagnosis kerusakan.
 
-## Opening instructions
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
+Aset lokal proyek; bukan dokumentasi proyek tertentu.
 
-- Open with the exact short salutation: **“Halo, Teman Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Elevator.co.id`, `Sobat Elevator.co.id`, or `Kawan Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,236 +44,68 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-09
-
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-11
-
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
-
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-38
-
-- **Original sources:** [ISO 8100-20:2018](https://www.iso.org/standard/73072.html).
-- **Purpose for this article:** Ground global essential safety requirements, risk reduction, users, maintenance/inspection personnel, components, functions, and lifecycle decisions.
-- **Safe grounded facts:** An interlock, governor, brake, alarm, rescue key, or maintenance contract alone does not prove the complete system or operational safety.
-- **Limits:** Verify the complete safety chain, interfaces, current risk assessment, test evidence, competent roles, maintenance/inspection regime, change history, emergency plan, and authority requirements.
-
-### KR-39
-
-- **Original sources:** [PP 16/2021 building implementation](https://peraturan.bpk.go.id/Details/161846/pp-no-16), [ISO lift standards catalogue](https://www.iso.org/committee/53970/x/catalogue/).
-- **Purpose for this article:** Ground traffic brief, shaft/pit/overhead and structure, power, doors/landings, accessibility, fire/emergency, communication, and commissioning interfaces.
-- **Safe grounded facts:** Rated load, speed, car size, shaft sketch, or traffic-calculator output does not prove service quality, structure, fire operation, accessible use, rescue, or acceptance.
-- **Limits:** Use measured building/use inputs, current local criteria and relevant lift standards, specialist traffic and engineering work, coordinated drawings, integrated tests, and authority acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/maintenance-elevator-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-15-01` → `/artikel/panduan-dasar-elevator-by-building-type-and-operating-context-istilah-komponen-dan-cara-kerja.html` — Panduan Dasar Elevator by building type and operating context: Istilah, Komponen, dan Cara Kerja
-- `ELV-15-02` → `/artikel/cara-menentukan-kebutuhan-elevator-by-building-type-and-operating-context-sebelum-memilih-solusi.html` — Cara Menentukan Kebutuhan Elevator by building type and operating context Sebelum Memilih Solusi
-- `ELV-15-04` → `/artikel/cara-mengukur-dan-menyusun-anggaran-elevator-by-building-type-and-operating-context.html` — Cara Mengukur dan Menyusun Anggaran Elevator by building type and operating context
-- `ELV-15-05` → `/artikel/tahapan-pekerjaan-elevator-by-building-type-and-operating-context-persiapan-pelaksanaan-dan-kontrol-mutu.html` — Tahapan Pekerjaan Elevator by building type and operating context: Persiapan, Pelaksanaan, dan Kontrol Mutu
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Masalah keputusan yang sebenarnya
 
-- **Purpose:** Jelaskan konteks pemilihan dan mengapa dua opsi ini sering dianggap dapat saling menggantikan.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Yang sering dibandingkan bukan dua sistem yang sudah didefinisikan, melainkan dua paket penawaran dengan batas berbeda. Satu vendor mungkin memasukkan pengendali, pintu, komunikasi, dan layanan; yang lain menaruh sebagian komponen sebagai pilihan tambahan. Jika isi paket tidak disamakan, harga dan janji performa tidak punya dasar pembanding.
+
+Mulailah dari satu skenario pembacaan: siapa yang naik, kapan arus padat, apa yang dibawa, berapa lama gedung beroperasi, dan siapa yang akan merespons ketika terjadi gangguan. Pedoman ILO menempatkan pengenalan bahaya, penilaian risiko, pengendalian, dan peninjauan sebagai siklus; matriks umum tidak dapat menentukan risiko sisa suatu lokasi tanpa data pajanan dan konsekuensinya ([panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks)).
+
+Maka pertanyaan yang lebih berguna bukan “mana paling canggih?”, tetapi “kondisi apa yang harus dilayani dan bukti apa yang membuktikan opsi ini mampu melayaninya?”. Catat asumsi yang belum terukur sebagai [NEEDS PROJECT EVIDENCE: data penggunaan, ruang, dan konteks operasi harus dikonfirmasi oleh tim proyek sebelum keputusan final.].
 
 ## Bedakan objek sebelum membandingkan
 
-- **Purpose:** Definisikan setiap opsi, fungsi, batas sistem, dan bukti identitasnya.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebelum memberi skor, tulis identitas setiap opsi dalam satu lembar: tipe penggunaan, batas sistem, komponen yang termasuk, antarmuka dengan struktur dan listrik, serta layanan setelah serah terima. Istilah “kinerja” perlu diurai menjadi waktu tunggu, kenyamanan perjalanan, ketersediaan, kemudahan perawatan, atau kemampuan menghadapi lingkungan tertentu. Masing-masing membutuhkan bukti berbeda.
+
+Untuk opsi gedung kantor, pola puncak datang dan pulang dapat lebih menentukan daripada tampilan kabin. Pada hunian, kesederhanaan operasi dan akses teknisi mungkin lebih penting. Pada fasilitas yang membawa barang, ukuran bukaan, perlindungan kabin, dan disiplin pembebanan menjadi pertanyaan tersendiri. Jangan menyimpulkan satu fungsi dari label “penumpang” atau “barang” saja.
+
+Identitas model juga harus dapat dilacak ke dokumen yang sama: lembar spesifikasi bertanggal, gambar koordinasi, daftar pengecualian, dan kondisi garansi. BNSP menjelaskan bahwa lingkup, skema, tingkat, masa berlaku, serta konteks praktik menentukan arti sebuah kredensial; prinsip serupa berlaku ketika Anda menilai kompetensi tim dan bukti vendor ([situs resmi BNSP](https://bnsp.go.id/)). Logo atau sertifikat tanpa identitas unit dan lingkup tidak cukup untuk menyatakan sistem terpasang sesuai.
 
 ## Kriteria perbandingan yang relevan
 
-- **Purpose:** Susun kriteria berdasarkan penggunaan, kondisi, antarmuka, risiko, pelaksanaan, perawatan, dan bukti.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Berikut cara membuat perbandingan yang tidak berat sebelah. Pertama, samakan masukan: jumlah lantai, jarak antar lantai, pola kedatangan, beban dan jenis pengguna, jam operasi, suhu atau kelembapan, serta kondisi pekerjaan yang berdekatan. Bila salah satu masukan belum tersedia, jangan mengisi dengan angka contoh; tandai sebagai keputusan yang masih terbuka.
+
+Kedua, nilai kecocokan fungsi. Tanyakan apakah setiap opsi mendukung akses, pintu, komunikasi, dan pola perjalanan yang dibutuhkan. PP Nomor 16 Tahun 2021 membingkai penyelenggaraan bangunan sebagai rangkaian persyaratan dan proses, bukan sekadar memilih satu alat dari katalog ([catatan PP Nomor 16 Tahun 2021](https://peraturan.bpk.go.id/Details/161846/pp-no-16)). Karena itu, gambar poros, pit, ruang atas, daya, dan antarmuka struktur perlu dibaca bersama oleh pihak yang berwenang.
+
+Ketiga, pisahkan bukti komponen dari bukti sistem. Sebuah rem, pengunci pintu, alarm, atau pengendali adalah bagian dari rantai keselamatan, bukan bukti bahwa keseluruhan sistem telah diuji pada konfigurasi gedung Anda. Rekaman uji, batas penerimaan, temuan, dan tindakan korektif memiliki fungsi berbeda dari brosur. Standar ISO 8100-1:2026 sendiri perlu dibaca dalam lingkup lengkap dan tidak otomatis menjadi bukti pemenuhan kewajiban lokal atau penerimaan suatu instalasi ([rekaman ISO 8100-1:2026](https://www.iso.org/standard/80553.html)).
+
+Keempat, hitung biaya sepanjang umur layanan tanpa mengarang harga. Bandingkan akses suku cadang, waktu respons yang disepakati, kebutuhan pelatihan, kemampuan pemantauan, serta konsekuensi ketika unit berhenti. Minta setiap asumsi biaya dan ketersediaan ditulis dengan tanggal, pemilik data, dan kondisi yang dapat mengubahnya. Jika klaim hanya berbunyi “hemat energi” atau “bebas masalah”, minta metode pengukuran dan batas klaimnya.
+
+Kelima, beri kolom risiko dan bukti. Untuk setiap perbedaan, tulis penyebab, konsekuensi, pengendalian, pemilik tindakan, dan cara memeriksa hasilnya. Panduan lima langkah ILO mengingatkan bahwa penilaian perlu melibatkan pihak yang relevan dan ditinjau ketika kondisi berubah ([panduan penilaian risiko ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting)). Ini membuat perbandingan tetap berguna ketika desain, jadwal, atau pengguna berubah.
 
 ## Kapan masing-masing pilihan masuk akal
 
-- **Purpose:** Berikan skenario bersyarat; jangan menyebut satu pemenang universal.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Opsi dengan fitur lebih banyak masuk akal bila fitur itu menjawab pola operasi yang benar-benar ada dan tim mampu merawatnya. Di gedung dengan arus pengguna berulang, data lalu lintas dan pengamatan jam sibuk harus mendukung kebutuhan tersebut. Di gedung dengan operasi sederhana, tambahan yang tidak memiliki pemilik perawatan dapat menambah titik gagal dan biaya tanpa manfaat jelas.
+
+Opsi yang lebih sederhana dapat lebih tepat bila ruang terbatas, pengguna relatif seragam, dan jalur layanan teknisi jelas. Namun “sederhana” tidak berarti menghapus bukti, pemeriksaan, atau pengendalian. Opsi yang lebih kuat untuk lingkungan berat baru layak dipilih setelah kondisi lingkungan, beban, dan paparan ditetapkan; jangan mengubah klaim material menjadi jaminan performa terpasang.
+
+Untuk pembeli yang sedang membuat daftar pendek, gunakan keputusan bersyarat: jika data penggunaan A terkonfirmasi, opsi A masuk tahap klarifikasi; jika data berubah menjadi B, minta revisi desain dan penawaran. Teman Elevator.co.id, keputusan yang dapat berubah dengan alasan tertulis lebih sehat daripada memilih pemenang universal yang tidak mengenal gedung Anda.
 
 ## Kesalahan perbandingan yang sering terjadi
 
-- **Purpose:** Bongkar sedikitnya tiga shortcut atau asumsi yang membuat keputusan keliru.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menyamakan kapasitas dan kecepatan dengan mutu layanan. Dua unit dengan angka sama dapat berperilaku berbeda karena jumlah unit, pengaturan kendali, jarak, pintu, dan pola panggilan. Periksa skenario yang dihitung dan batas hasilnya, bukan hanya angka ringkasan.
+
+Kesalahan kedua adalah memakai harga awal sebagai total biaya. Harga rendah dapat mengecualikan pekerjaan koordinasi, modifikasi ruang, pengujian, atau layanan. Minta daftar termasuk dan tidak termasuk, lalu cocokkan dengan gambar dan tanggung jawab tiap pihak.
+
+Kesalahan ketiga adalah menerima gambar sertifikat atau testimoni sebagai bukti sistem. Undang-Undang Perlindungan Konsumen menempatkan informasi dan tanggung jawab pelaku usaha dalam kerangka tersendiri; pembeli tetap perlu memastikan objek, periode, dan lingkup klaim sebelum mengandalkannya ([UU Nomor 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999)). Tanda bahaya muncul ketika dokumen tidak menyebut model, konfigurasi, tanggal, metode, atau pihak yang menandatangani.
+
+Kesalahan keempat adalah menganggap satu standar internasional otomatis menyelesaikan seluruh kewajiban. Standar membantu membingkai keselamatan dan mutu, tetapi penerapan lokal, desain bangunan, pemeriksaan, dan penerimaan tetap membutuhkan tinjauan yang sesuai. Jika vendor menolak menjelaskan batas klaim atau bukti, jangan menutup celah itu dengan asumsi.
 
 ## Bukti yang perlu diminta sebelum memilih
 
-- **Purpose:** Buat checklist dokumen, data proyek, sampel/tes, persetujuan, dan pihak penanggung jawab.
-- **Tie back to this article:** Keep the explanation specific to “Perbandingan Opsi Elevator by building type and operating context: Kriteria, Trade-off, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Susun paket bukti yang bisa dibaca silang. Minta lembar kebutuhan dengan asumsi dan tanggal; spesifikasi setiap opsi; gambar poros, pit, ruang atas, pintu, daya, dan antarmuka; daftar pengecualian; rencana pengujian dan kriteria lulus; riwayat perubahan; serta rencana perawatan dan eskalasi gangguan. Minta juga nama pemilik tiap dokumen dan cara mendapatkan versi terbarunya.
 
-## Objection or shortcut to address
+Untuk kompetensi, verifikasi lingkup dan masa berlaku bukti pada sumber atau penerbitnya, lalu cocokkan dengan pekerjaan yang akan dilakukan. Untuk risiko, jangan hanya meminta skor; minta bahaya, pajanan, konsekuensi, pengendalian, dan bukti efektivitas. Audit atau tinjauan juga perlu menetapkan lingkup, kompetensi, independensi, sampel, temuan, tindakan, dan verifikasi efektivitas; catatan ISO 19011 membantu menjelaskan kerangka ini tanpa membuktikan hasil audit proyek tertentu ([rekaman ISO 19011](https://www.iso.org/standard/70017.html)).
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Gunakan dua tautan lokal hanya jika benar-benar membantu langkah sesudah daftar pendek: [tinjau layanan pemeliharaan elevator di Yogyakarta](/maintenance-elevator-yogyakarta) dan [bandingkan konteks layanan pemeliharaan di Tuban](/maintenance-elevator-tuban). Tautan itu bukan bukti bahwa opsi tertentu cocok; ia hanya membantu Anda menyusun pertanyaan layanan pada konteks yang berbeda.
 
-## Required conclusion
+Jika data utama masih kosong, pertahankan [NEEDS PROJECT EVIDENCE: keputusan akhir memerlukan verifikasi desain, pengujian, kompetensi, dan penerimaan oleh pihak berwenang.]. Jangan menukar penanda ini dengan kalimat yang terdengar pasti.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Kesimpulan: pilih berdasarkan kecocokan dan bukti
 
-## Draft completion checklist
+Perbandingan opsi elevator yang sehat dimulai dengan menyamakan objek, masukan, dan batas klaim. Setelah itu baru nilai fungsi gedung, konteks operasi, antarmuka, risiko, biaya umur layanan, dan kemampuan perawatan. Tidak ada pemenang universal; pilihan terbaik adalah yang memenuhi kebutuhan terukur dan memiliki bukti yang dapat ditelusuri.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah Anda berikutnya: buat tabel dua kolom untuk setiap opsi, isi asumsi yang sama, minta dokumen yang hilang, lalu jadwalkan pembacaan bersama perancang, pemilik bangunan, dan pihak teknis yang berwenang. Kawan Elevator.co.id, jika satu klaim tidak dapat dikaitkan dengan model, konfigurasi, metode, tanggal, dan penanggung jawab, perlakukan sebagai pertanyaan terbuka—bukan alasan memilih.
+
+Artikel ini bukan tutorial instalasi atau diagnosis kerusakan. Keputusan final tetap memerlukan data proyek, pemeriksaan, pengujian, dan persetujuan profesional yang relevan.

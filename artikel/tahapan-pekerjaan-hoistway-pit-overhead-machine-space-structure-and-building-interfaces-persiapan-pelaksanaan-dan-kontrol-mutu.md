@@ -1,9 +1,23 @@
 ---
+
+<!-- BEGIN MANAGED IMAGE PLAN
+## Image plan
+
+- **Image ID:** `LOCAL-001`
+- **Source type:** `local`
+- **Placement:** after the opening has answered the main question, before the first detailed H2
+- **Exact Markdown to insert:** `![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)`
+- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
+- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 article_id: ELV-04-05
 title: "Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu"
 slug: "tahapan-pekerjaan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-persiapan-pelaksanaan-dan-kontrol-mutu"
-description: "Pembaca dapat memeriksa kesiapan, mengikuti tahap kerja, mengenali titik kritis, dan menghentikan kerja yang belum memenuhi prasyarat."
-status: outline
+description: "Panduan praktis untuk memeriksa kesiapan, menyelaraskan urutan pekerjaan, dan menghentikan pekerjaan hoistway yang belum memenuhi prasyarat."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-06-20"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,290 +30,74 @@ technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
   - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/80553.html"
-  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
+  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
+  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
   - "https://peraturan.bpk.go.id/Details/161846/pp-no-16"
-  - "https://www.iso.org/committee/53970/x/catalogue/"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu
 
-## Assignment lock
+Halo, Kawan Elevator.co.id! Pemilik gedung sering melihat lubang hoistway sudah terbentuk lalu mengira pemasangan lift dapat langsung dimulai. Padahal, satu bukaan pintu yang bergeser, lantai pit yang belum siap, atau jalur listrik yang belum disepakati dapat memaksa pekerjaan dibongkar ulang. Urutan yang terkendali dimulai dari data dan batas tanggung jawab, dilanjutkan pemeriksaan kondisi nyata, pekerjaan sipil dan utilitas, baru pemasangan serta pengujian oleh pihak berwenang.
 
-- **Writer task:** Expand this file into one complete article answering: “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”
-- **Reader and situation:** Pemilik, pengawas, atau pelaksana yang perlu menyelaraskan pekerjaan dan penerimaan.
-- **Reader outcome:** Pembaca dapat memeriksa kesiapan, mengikuti tahap kerja, mengenali titik kritis, dan menghentikan kerja yang belum memenuhi prasyarat.
-- **Primary intent:** Memahami urutan kerja, dependensi, hold point, dan pemeriksaan mutu Hoistway, pit, overhead, machine space, structure, and building interfaces.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Kawan Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Teman Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menggantikan metode kerja proyek atau tenaga kompeten; perawatan dan diagnosis dimiliki ELV-04-06 dan ELV-04-07.
-- **Final public route:** `/artikel/tahapan-pekerjaan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-persiapan-pelaksanaan-dan-kontrol-mutu.html`
-- **Appointed CMS date:** `2025-06-20` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: jangan menjadikan jadwal pemasangan sebagai titik awal. Pastikan gambar terkoordinasi, kondisi hoistway-pit-overhead terukur, akses dan perlindungan tersedia, serta setiap peralihan tahap memiliki bukti pemeriksaan. Jika data bangunan, metode kerja, atau kompetensi belum jelas, pekerjaan berhenti di titik pemeriksaan. Prinsip pengendalian risiko meminta bahaya dikenali, dikendalikan, lalu ditinjau ulang ketika kondisi berubah ([ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks)).
 
-## Opening instructions
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Elevator.co.id`, `Sobat Elevator.co.id`, or `Teman Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Ilustrasi umum dari aset lokal elevator.co.id; bukan dokumentasi proyek tertentu.
 
+## Hasil akhir dan prasyarat yang harus terlihat
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
+Bagian ini menerjemahkan “siap mulai” menjadi bukti yang dapat diperiksa, supaya Kawan Elevator.co.id tidak menyamakan ruang kosong dengan ruang yang layak dikerjakan.
 
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+Hasil yang dicari bukan sekadar hoistway selesai diplester. Batas ruang, titik acuan, bukaan, tumpuan, akses, perlindungan, pasokan energi, dan tanggung jawab antarpihak harus dipahami dengan cara yang sama. Pemilik atau pengawas menetapkan siapa yang berwenang menyetujui peralihan tahap; pelaksana menyiapkan metode kerja; tenaga kompeten menilai pekerjaan teknis dalam kewenangannya.
 
-## Evidence packet
+Kumpulkan gambar arsitektur dan struktur terakhir, data lift yang dipilih, daftar perubahan, jadwal pekerjaan bersamaan, serta catatan kondisi lapangan. Cocokkan versi dan tanggalnya. Kerangka keselamatan konstruksi menekankan perubahan tanggung jawab dan antarmuka antara pemilik, perancang, kontraktor, pengawas, dan pekerja ([Permen PUPR No. 10 Tahun 2021](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi)).
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Pertanyaan awalnya: apakah ukuran dan elevasi terukur, permukaan cukup stabil, jalur orang dan material terlindungi, benda jatuh dapat dikendalikan, serta sumber energi sudah diidentifikasi? Bila ada jawaban “menunggu konfirmasi”, catat sebagai kondisi terbuka dan tetapkan pemilik tindak lanjut.
 
-### KR-01
+## Tetapkan batas pekerjaan dan antarmuka sejak awal
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Antarmuka adalah titik ketika pekerjaan lift bersinggungan dengan sipil, struktur, arsitektur, listrik, proteksi kebakaran, dan pengelolaan gedung. Menjelaskannya mencegah asumsi bahwa satu pihak otomatis menanggung semua bukaan atau pengujian.
 
-### KR-05
+Mulai dengan batas fisik: dinding hoistway, pit (ruang terdalam di bawah lantai luncur), overhead (ruang bebas di atas posisi tertinggi kabin), dan machine space (ruang mesin bila desain memilikinya). Tandai ambang pintu lantai, balok, penetrasi kabel, saluran air, penerangan, serta akses inspeksi. Jangan mengisi ukuran yang belum diukur dari katalog umum; minta pengukuran proyek dan gambar yang disetujui.
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Batas waktu juga penting. Pekerjaan cor, waterproofing, pasangan dinding, pemasangan pintu, penarikan kabel, dan finishing dapat saling mengunci. Menutup dinding sebelum jalur utilitas disepakati mengubah koreksi kecil menjadi pembongkaran. Data terukur dan koordinasi lintas disiplin diperlukan sebelum kesimpulan penerimaan ([PP No. 16 Tahun 2021](https://peraturan.bpk.go.id/Details/161846/pp-no-16)). Artikel ini bukan metode kerja proyek, perhitungan struktur, atau panduan perawatan dan diagnosis.
 
-### KR-19
+## Kumpulkan bukti lalu cocokkan dengan kondisi nyata
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Tujuannya menemukan perbedaan antara rencana dan lapangan sebelum perbedaan tertutup. Buat daftar yang menghubungkan setiap persyaratan dengan pemilik bukti, cara memeriksa, tanggal, dan hasil.
 
-### KR-20
+Periksa garis dan elevasi dengan alat ukur yang sesuai dan catat identitasnya; periksa permukaan pit terhadap air, lumpur, retak, atau material lepas; amati perlindungan tepi dan akses; lalu cocokkan bukaan pintu serta tumpuan dengan gambar. Jangan menyimpulkan kekuatan struktur dari tampilan beton. Jika ragu, tahan pekerjaan dan minta penilaian disiplin struktur.
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Bukti keselamatan juga berlapis. Identitas peralatan angkat, kompetensi operator, kondisi tumpuan, konfigurasi, komunikasi, dan area larangan masuk membuktikan hal yang berbeda. Aturan peralatan angkat menuntut data dan pemeriksaan sesuai konteks; artikel ini tidak menetapkan beban atau konfigurasi generik ([Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016)). Untuk pekerjaan dekat listrik, identifikasi sumber, isolasi, pembuktian tidak bertegangan, dan kewenangan harus diverifikasi oleh pihak berwenang ([Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015)).
 
-### KR-21
+Gunakan daftar terbuka berisi temuan, bukti yang kurang, penanggung jawab, batas waktu, dan keputusan sementara. Siklus lima langkah penilaian risiko membantu meninjau ulang pengendalian ketika urutan atau kondisi berubah ([ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting)).
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+## Jalankan urutan pekerjaan dengan titik pemeriksaan
 
-### KR-23
+Urutan konseptual ini membantu melihat ketergantungan, bukan menggantikan metode kerja. Pertama, tetapkan area kerja, akses, perlindungan orang di bawah, penyimpanan material, komunikasi, dan dokumen versi. Kedua, selesaikan struktur dan ruang: referensi elevasi, dinding, pit, overhead, tumpuan, bukaan, serta pengendalian air. Ketiga, koordinasikan utilitas dan perlengkapan antarmuka seperti listrik, penerangan, komunikasi, proteksi kebakaran, dan akses. Keempat, lakukan pemasangan komponen lift sesuai metode dan kewenangan pemasok. Kelima, lakukan pemeriksaan antara, pembersihan, pengujian terintegrasi, dan serah terima berbasis rekaman.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Setelah satu tahap selesai, jangan langsung menutupnya dengan finishing. Periksa ukuran, posisi, kebersihan, kondisi permukaan, dan bukti perubahan. Bila pekerjaan berikutnya menyembunyikan bagian yang baru diperiksa, dokumentasikan terlebih dahulu. Perubahan urutan, material, atau kontraktor memicu penilaian ulang.
 
-### KR-24
+## Titik berhenti ketika prasyarat belum terpenuhi
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+“Titik berhenti” berarti menahan langkah berikutnya sampai bukti minimum lengkap, bukan menghukum pelaksana. Pemicu praktisnya: ukuran penting tidak cocok, air atau material mengganggu pit, perlindungan jatuh atau benda jatuh belum tersedia, jalur energi belum jelas, gambar berubah tanpa persetujuan, atau tenaga yang diperlukan belum ditetapkan.
 
-### KR-02
+Catat siapa yang menemukan, apa yang terlihat, bukti pendukung, risiko bila diteruskan, dan siapa yang berwenang memberi keputusan. Jangan memperbaiki dengan memindahkan komponen atau mengubah kabel tanpa metode dan penilaian yang tepat. Pekerjaan berjalan lagi setelah kondisi ditutup, hasil diperiksa, dan perubahan versi dibagikan.
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+## Verifikasi hasil dan serah terima berbasis rekaman
 
-### KR-09
+Serah terima yang baik menjawab apa yang dikerjakan, apa yang diuji, dan apa yang masih terbuka. Satukan gambar akhir, catatan pengukuran, identitas komponen, pemeriksaan antara, hasil pengujian yang benar-benar dilakukan, daftar cacat, tindakan koreksi, serta penanggung jawab tindak lanjut. Pisahkan rekaman keselamatan, mutu, dan data pribadi sesuai pemilik dan hak aksesnya.
 
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
+Stiker pemeriksaan, foto sertifikat, atau pernyataan penjual bukan bukti tunggal bahwa sistem terpasang sesuai. Bukti harus merujuk pada model dan kondisi yang diterima, dengan metode dan tanggal yang dapat ditelusuri. Jika bukti belum lengkap, tulis [NEEDS TECHNICAL REVIEW: bukti pengukuran, pengujian, atau persetujuan proyek belum lengkap] dan tahan klaim penerimaan.
 
-### KR-10
+## Jalan pintas yang sering gagal
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Jalan pintasnya adalah memasang komponen dulu, lalu menyesuaikan bukaan dan utilitas belakangan. Jadwal memang terlihat bergerak, tetapi masalah pindah ke ruang sempit: toleransi berkurang, pekerjaan tertutup, dan pihak penyetuju datang terlambat. Alternatif yang lebih dapat ditelusuri adalah menyelesaikan pemeriksaan ruang dan antarmuka, menandai temuan terbuka, lalu memulai pemasangan setelah titik berhenti ditutup.
 
-### KR-11
+## Langkah berikutnya untuk Kawan Elevator.co.id
 
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
+Sebelum menyetujui tahap berikut, lakukan rapat singkat di lokasi dengan gambar versi terakhir, daftar pengukuran, daftar antarmuka, dan daftar kondisi terbuka. Minta penanggung jawab setiap bukti menyebutkan apa yang sudah dan belum diperiksa. Bila keputusan menyentuh struktur, listrik, proteksi kebakaran, pengangkatan, atau hukum, minta tinjauan tenaga dan otoritas yang sesuai. Untuk rujukan langkah berikut, mulai dari [beranda Elevator.co.id](/) dan gunakan jalur layanan yang sudah diverifikasi pengelola situs.
 
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-39
-
-- **Original sources:** [PP 16/2021 building implementation](https://peraturan.bpk.go.id/Details/161846/pp-no-16), [ISO lift standards catalogue](https://www.iso.org/committee/53970/x/catalogue/).
-- **Purpose for this article:** Ground traffic brief, shaft/pit/overhead and structure, power, doors/landings, accessibility, fire/emergency, communication, and commissioning interfaces.
-- **Safe grounded facts:** Rated load, speed, car size, shaft sketch, or traffic-calculator output does not prove service quality, structure, fire operation, accessible use, rescue, or acceptance.
-- **Limits:** Use measured building/use inputs, current local criteria and relevant lift standards, specialist traffic and engineering work, coordinated drawings, integrated tests, and authority acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-04-03` → `/artikel/perbandingan-opsi-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Hoistway, pit, overhead, machine space, structure, and building interfaces: Kriteria, Trade-off, dan Red Flag
-- `ELV-04-04` → `/artikel/cara-mengukur-dan-menyusun-anggaran-hoistway-pit-overhead-machine-space-structure-and-building-interfaces.html` — Cara Mengukur dan Menyusun Anggaran Hoistway, pit, overhead, machine space, structure, and building interfaces
-- `ELV-04-06` → `/artikel/checklist-inspeksi-dan-perawatan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces.html` — Checklist Inspeksi dan Perawatan Hoistway, pit, overhead, machine space, structure, and building interfaces
-- `ELV-04-07` → `/artikel/diagnosis-masalah-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-gejala-penyebab-dan-batas-perbaikan.html` — Diagnosis Masalah Hoistway, pit, overhead, machine space, structure, and building interfaces: Gejala, Penyebab, dan Batas Perbaikan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Tahapan Pekerjaan Hoistway, pit, overhead, machine space, structure, and building interfaces: Persiapan, Pelaksanaan, dan Kontrol Mutu”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jadi, tahapan pekerjaan hoistway yang terkendali bukan “cor lalu pasang”, melainkan siklus data, pemeriksaan, pekerjaan, titik berhenti, dan rekaman. Artikel ini membantu menyelaraskan pekerjaan dan penerimaan; ia tidak menggantikan metode kerja proyek atau keputusan tenaga kompeten. Aturan operasinya: bila prasyarat atau bukti belum jelas, tahan tahap berikutnya dan cari keputusan yang dapat dipertanggungjawabkan.

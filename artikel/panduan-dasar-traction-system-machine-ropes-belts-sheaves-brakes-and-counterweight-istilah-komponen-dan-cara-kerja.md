@@ -2,8 +2,9 @@
 article_id: ELV-05-01
 title: "Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja"
 slug: "panduan-dasar-traction-system-machine-ropes-belts-sheaves-brakes-and-counterweight-istilah-komponen-dan-cara-kerja"
-description: "Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Traction system, machine, ropes/belts, sheaves, brakes, and counterweight relevan."
-status: outline
+description: "Panduan dasar untuk mengenali komponen dan hubungan kerja sistem elevator traksi sebelum menentukan kebutuhan atau meminta pemeriksaan teknis."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-07"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,63 +15,12 @@ reader_address: "Teman Elevator.co.id"
 final_route: "/artikel/panduan-dasar-traction-system-machine-ropes-belts-sheaves-brakes-and-counterweight-istilah-komponen-dan-cara-kerja.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/80553.html"
-  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
-  - "https://www.iso.org/standard/73072.html"
+  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
+  - "https://bnsp.go.id/"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”
-- **Reader and situation:** Pembaca baru yang memerlukan model mental benar sebelum menentukan kebutuhan.
-- **Reader outcome:** Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Traction system, machine, ropes/belts, sheaves, brakes, and counterweight relevan.
-- **Primary intent:** Memahami definisi, komponen, mekanisme, dan batas sistem Traction system, machine, ropes/belts, sheaves, brakes, and counterweight.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Teman Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Kawan Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak membandingkan opsi atau menetapkan spesifikasi; intent tersebut dimiliki ELV-05-02 dan ELV-05-03.
-- **Final public route:** `/artikel/panduan-dasar-traction-system-machine-ropes-belts-sheaves-brakes-and-counterweight-istilah-komponen-dan-cara-kerja.html`
-- **Appointed CMS date:** `2025-07-07` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Teman Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Elevator.co.id`, `Sobat Elevator.co.id`, or `Kawan Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,222 +31,68 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Teman Elevator.co.id! Saat membaca gambar atau penawaran elevator, Anda mungkin melihat istilah traction system, machine, rope, belt, sheave, brake, dan counterweight sekaligus. Kebingungan muncul ketika semua istilah itu dianggap pilihan spesifikasi yang dapat dibandingkan cepat. Langkah pertama yang lebih berguna adalah memahami hubungan kerjanya.
 
-### KR-01
+Jawaban singkatnya: sistem traksi menggerakkan kabin melalui gaya cengkeram antara tali atau sabuk dan roda penggerak. Mesin memutar roda, rem menahan gerak ketika berhenti, dan beban penyeimbang membantu mengurangi beban yang harus dipindahkan motor. Ukuran, kapasitas, dan kelayakan tidak boleh ditebak dari istilah; semuanya harus dicocokkan dengan desain serta pemeriksaan kompeten.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
-### KR-05
+Ilustrasi umum dari aset lokal Elevator.co.id; bukan dokumentasi proyek tertentu.
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+## Apa itu sistem traksi dan apa batas artikel ini?
 
-### KR-19
+Sistem traksi adalah rangkaian penggerak yang mengubah putaran mesin menjadi gerak naik-turun kabin melalui tali atau sabuk. Kata traction berarti traksi atau cengkeraman: media penggerak menekan alur roda sehingga putaran roda diteruskan menjadi gerak linear. Ini berbeda dari lift hidraulik yang memindahkan kabin dengan tekanan fluida.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Jika cengkeraman, tegangan, lintasan, atau beban tidak cocok, media penggerak dapat selip atau menerima gaya yang tidak direncanakan. Karena itu, label “traction” pada brosur tidak membuktikan kecocokan sebuah unit. Artikel ini hanya membantu Anda mengenali komponen dan urutan kerja; tidak membandingkan opsi proyek atau menetapkan daya, ukuran tali, kapasitas, dan setelan rem. Ruang lingkup standar seperti ISO 8100-1 harus diverifikasi menurut edisi, adopsi lokal, dan aset yang sebenarnya (https://www.iso.org/standard/80553.html).
 
-### KR-20
+## Komponen utama dan hubungan antarkomponen
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Bagian ini menjawab nama-nama yang biasanya muncul dalam daftar teknis. Setiap komponen punya peran sendiri, tetapi keputusan tentang satu bagian memengaruhi bagian lain.
 
-### KR-21
+### Mesin, sheave, dan media penggerak
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Mesin mengubah energi listrik menjadi putaran. Putaran diteruskan ke sheave, yaitu roda beralur tempat tali atau sabuk melintas. Alur membantu menjaga lintasan, sedangkan gaya gesek meneruskan torsi. Bila torsi melebihi cengkeraman yang tersedia, gejalanya dapat berupa selip, gerak tidak seragam, atau keausan; penyebab pastinya tetap memerlukan pemeriksaan.
 
-### KR-23
+Ropes berarti tali penggantung, sedangkan belts berarti sabuk untuk hubungan penggerak tertentu. Keduanya membawa gaya antara kabin, roda, dan beban penyeimbang, tetapi konstruksi, cara terminasi, dan cara pemeriksaannya bisa berbeda. Teman Elevator.co.id, jangan menyamakan jumlah tali dengan kapasitas atau keamanan. Diameter, konstruksi, tegangan, lintasan, dan dokumen pabrikan ikut menentukan makna teknisnya.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+### Kabin, counterweight, dan rel
 
-### KR-24
+Kabin membawa orang atau barang. Counterweight, atau beban penyeimbang, mengimbangi sebagian berat kabin dan beban rancangannya sehingga motor tidak selalu mengatasi seluruh berat kabin. Penyeimbang bukan izin menambah muatan; kapasitas tetap mengikuti desain, label aset, pemeriksaan, dan aturan operasi.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Rel pemandu menjaga kabin dan penyeimbang bergerak pada jalur yang ditentukan. Gerak halus karena itu bukan hanya urusan mesin. Ketidaksesuaian rel, roda pemandu, tali, atau penyetelan dapat memengaruhi getaran dan ketepatan berhenti. Catat arah perjalanan, waktu, dan kondisi beban sebelum menebak penyebab keluhan.
 
-### KR-02
+### Rem dan kendali
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Brake atau rem menahan gerak ketika perintah berhenti diberikan atau kondisi tertentu mengharuskan sistem tidak bergerak. Rem bukan pengganti pengendalian kecepatan; sensor, pengendali, rangkaian listrik, dan perangkat pengaman bekerja sebagai rantai.
 
-### KR-09
+Lampu indikator menyala atau kabin berhenti sekali tidak cukup menyatakan seluruh fungsi aman. Pedoman ILO menekankan bahwa risiko perlu dikenali, dikendalikan, dan diverifikasi dengan bukti sesuai konteks, bukan hanya mengandalkan satu alat (https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks). Untuk elevator, buktinya dapat mencakup identitas aset, catatan pemeriksaan, pengujian, riwayat perubahan, dan kewenangan personel.
 
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
+## Urutan cara kerja yang mudah dibayangkan
 
-### KR-10
+Ketika perintah naik diterima, pengendali mengaktifkan mesin. Mesin memutar sheave, sheave meneruskan gaya ke tali atau sabuk, lalu kabin dan counterweight bergerak berlawanan pada relnya. Sensor dan kendali memantau posisi serta kecepatan; mendekati lantai, sistem mengurangi kecepatan menurut rancangan dan rem menahan bagian bergerak setelah posisi tercapai.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Urutan itu menjelaskan mengapa keluhan “berhenti kasar” tidak otomatis menunjuk rem. Pemeriksa perlu melihat interaksi mesin, media penggerak, pengendali, rel, dan beban. Perjalanan turun memakai prinsip yang sama dengan arah putaran dan distribusi gaya berbeda. Uji dengan kabin kosong juga belum tentu menggambarkan semua kondisi; jenis uji dan kriteria penerimaan harus mengikuti dokumen teknis.
 
-### KR-11
+## Data awal sebelum meminta keputusan teknis
 
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
+Sebelum bertanya “pakai tali atau belt?”, catat identitas unit, tipe mesin, media penggerak, kapasitas yang tertera, kondisi akses, dan gejala yang benar-benar diamati. Kumpulkan gambar rancangan, manual, catatan pemeliharaan, laporan pemeriksaan, serta daftar perubahan. Bedakan observasi “kabin bergetar saat berhenti” dari dugaan “sheave aus”.
 
-### KR-12
+Untuk personel yang memeriksa, verifikasi ruang lingkup kompetensi, penerbit, masa berlaku, dan konteks praktiknya. BNSP menyediakan informasi kerangka sertifikasi, tetapi situs atau gambar sertifikat tidak mengautentikasi seseorang untuk pekerjaan tertentu (https://bnsp.go.id/). Kawan Elevator.co.id, jika data dasar belum tersedia, minta dokumen aset dan penilaian pihak kompeten; jangan memilih komponen dari foto atau klaim penjual.
 
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
+## Kapan harus berhenti dan meminta pemeriksaan?
 
-### KR-16
+Tahan kesimpulan bila ada suara atau getaran baru, selip, berhenti tidak rata, pintu merespons tidak normal, riwayat perubahan tanpa dokumen, atau perbedaan antara label dan catatan. Jangan membuka pelindung, mengubah setelan, atau menguji perangkat pengaman sendiri. Gejala dapat berasal dari beberapa antarmuka dan tindakan yang salah bisa menambah risiko.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Jika laporan menyatakan “sudah sesuai standar”, tanyakan standar dan edisinya, ruang lingkup aset, metode pemeriksaan, serta bukti hasilnya. Pernyataan umum tidak membuktikan seluruh rantai keselamatan. Ikuti prosedur pengelola dan hubungi pihak berwenang bila ada kondisi darurat.
 
-### KR-18
+Perhatikan juga batas informasi dari sebuah dokumen. Manual yang cocok untuk satu model belum tentu berlaku untuk model lain, sedangkan catatan pemeliharaan hanya menggambarkan pekerjaan yang benar-benar tercatat. Saat ada perubahan pengendali, tali, mesin, atau beban, mintalah penilaian ulang terhadap antarmuka terkait. Dengan cara ini, Anda tidak mengubah penjelasan umum menjadi keputusan teknis yang seharusnya dibuat berdasarkan data unit.
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+## Kesimpulan: pahami hubungan sebelum memilih
 
-### KR-36
+Traction system menghubungkan mesin, sheave, tali atau sabuk, kabin, counterweight, rel, kendali, dan rem menjadi satu rantai kerja. Model mental ini membantu Anda membaca dokumen dan mengajukan pertanyaan, tetapi tidak menetapkan pilihan komponen atau menyatakan elevator aman.
 
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-38
-
-- **Original sources:** [ISO 8100-20:2018](https://www.iso.org/standard/73072.html).
-- **Purpose for this article:** Ground global essential safety requirements, risk reduction, users, maintenance/inspection personnel, components, functions, and lifecycle decisions.
-- **Safe grounded facts:** An interlock, governor, brake, alarm, rescue key, or maintenance contract alone does not prove the complete system or operational safety.
-- **Limits:** Verify the complete safety chain, interfaces, current risk assessment, test evidence, competent roles, maintenance/inspection regime, change history, emergency plan, and authority requirements.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-05-02` → `/artikel/cara-menentukan-kebutuhan-traction-system-machine-ropes-belts-sheaves-brakes-and-counterweight-sebelum-memilih-solusi.html` — Cara Menentukan Kebutuhan Traction system, machine, ropes/belts, sheaves, brakes, and counterweight Sebelum Memilih Solusi
-- `ELV-05-03` → `/artikel/perbandingan-opsi-traction-system-machine-ropes-belts-sheaves-brakes-and-counterweight-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Kriteria, Trade-off, dan Red Flag
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Traction system, machine, ropes/belts, sheaves, brakes, and counterweight: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah berikutnya adalah membuat daftar identitas aset, dokumen, gejala, dan pihak pemeriksa. Anda dapat mulai dari [beranda Elevator.co.id](/) untuk konteks layanan, lalu minta pemeriksaan yang merujuk model dan riwayat unit. Aturan operasinya: jangan memilih atau mengubah komponen hanya dari istilah, foto, atau klaim; cocokkan seluruh rantai dengan bukti teknis dan pemeriksaan kompeten.
