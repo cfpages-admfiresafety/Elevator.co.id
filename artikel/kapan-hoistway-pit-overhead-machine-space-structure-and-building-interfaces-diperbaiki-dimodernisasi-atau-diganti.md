@@ -2,8 +2,9 @@
 article_id: ELV-04-08
 title: "Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti"
 slug: "kapan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-diperbaiki-dimodernisasi-atau-diganti"
-description: "Pembaca dapat membandingkan kelayakan teknis, gangguan, risiko sisa, bukti, dan biaya siklus hidup."
-status: outline
+description: "Panduan membandingkan kelayakan teknis, gangguan, risiko sisa, bukti, dan biaya siklus hidup sebelum memilih perbaikan, modernisasi, atau penggantian bagian gedung lift."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-04"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,63 +16,22 @@ final_route: "/artikel/kapan-hoistway-pit-overhead-machine-space-structure-and-b
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/80553.html"
-  - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
   - "https://peraturan.bpk.go.id/Details/161846/pp-no-16"
-  - "https://www.iso.org/committee/53970/x/catalogue/"
+  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
+  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti
 
-## Assignment lock
+Halo, Kawan Elevator.co.id! Ketika lift sering berhenti, kebutuhan gedung berubah, atau komponen lama sulit dicari, pilihan paling murah di muka belum tentu paling masuk akal. Mengganti panel kendali tanpa memastikan ruang luncur dan struktur masih memadai dapat memindahkan masalah ke bagian lain; membongkar seluruhnya juga bisa menambah gangguan tanpa alasan teknis yang cukup.
 
-- **Writer task:** Expand this file into one complete article answering: “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”
-- **Reader and situation:** Pemilik aset yang menghadapi perubahan kebutuhan, umur layanan, obsolescence, atau kegagalan berulang.
-- **Reader outcome:** Pembaca dapat membandingkan kelayakan teknis, gangguan, risiko sisa, bukti, dan biaya siklus hidup.
-- **Primary intent:** Memilih repair, retrofit, modernization, reuse, atau replacement untuk Hoistway, pit, overhead, machine space, structure, and building interfaces.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Kawan Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Teman Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak mengulang definisi dasar atau jadwal rutin; intent tersebut dimiliki ELV-04-01 dan ELV-04-06.
-- **Final public route:** `/artikel/kapan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-diperbaiki-dimodernisasi-atau-diganti.html`
-- **Appointed CMS date:** `2025-07-04` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: pilih perbaikan jika kerusakan terlokalisasi, penyebabnya dapat dibuktikan, dan bagian lain masih kompatibel. Pilih modernisasi atau retrofit jika beberapa subsistem sudah usang tetapi hoistway, pit, ruang atas, dan struktur dapat dipertahankan setelah pemeriksaan. Pilih penggantian bila kerusakan menyebar, antarmuka gedung tidak lagi memenuhi kebutuhan, bukti keselamatan tidak dapat dipulihkan, atau risiko sisa dan gangguan jangka panjang lebih besar daripada pekerjaan baru. Keputusan itu harus lahir dari data aset, bukan usia saja.
 
-## Opening instructions
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Elevator.co.id`, `Sobat Elevator.co.id`, or `Teman Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Aset lokal bersifat ilustratif, bukan dokumentasi proyek tertentu.
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,222 +42,54 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Apa saja yang sebenarnya diputuskan?
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Istilah hoistway berarti ruang luncur tempat kabin dan lawan beban bergerak; pit adalah ruang di bawah lantai terendah; overhead adalah ruang bebas di atas lantai teratas; machine space ialah ruang mesin atau peralatan penggerak. “Antarmuka gedung” mencakup bukaan lantai, dinding, balok, daya listrik, ventilasi, akses, pintu, sistem kebakaran, dan jalur evakuasi yang bertemu dengan instalasi lift.
 
-### KR-01
+Batas ini penting karena gejala di kabin tidak selalu berasal dari mesin. Getaran dapat berkaitan dengan rel dan tumpuan, rembesan air dapat merusak peralatan di pit, sedangkan perubahan fungsi gedung dapat mengubah kebutuhan kapasitas, akses, atau operasi darurat. Artikel ini tidak mengulang definisi dasar atau jadwal perawatan rutin; fokusnya adalah keputusan perubahan aset dan bukti yang perlu disiapkan.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+## Cara membandingkan perbaikan, modernisasi, dan penggantian
 
-### KR-05
+Mulailah dengan membuat daftar kondisi saat ini: gambar dan ukuran aktual, riwayat gangguan, bagian yang sudah tidak tersedia, hasil pemeriksaan, perubahan penggunaan gedung, serta batas waktu penghentian layanan. Penilaian risiko yang baik mengidentifikasi bahaya, menentukan siapa yang terpapar, menilai pengendalian yang ada, lalu menetapkan tindakan dan pemeriksaan ulang; matriks generik tidak otomatis menentukan risiko lokasi Anda ([ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks)).
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Perbaikan cocok ketika sumber masalah tunggal dan dapat diverifikasi. Contohnya, kebocoran lokal dapat ditangani bersama perbaikan drainase setelah penyebabnya ditemukan. Keputusannya bukan “ganti komponen yang terlihat rusak”, melainkan “apa bukti bahwa komponen pengganti menyelesaikan mekanisme kegagalan tanpa membebani struktur atau kendali lain?”.
 
-### KR-19
+Modernisasi berarti mengganti atau menambah beberapa subsistem sambil memakai bagian gedung yang masih layak. Pilihan ini masuk akal bila ruang, bukaan, tumpuan, dan jalur utilitas dapat dipastikan kompatibel dengan peralatan baru. Setiap perubahan harus diuji pada kondisi normal dan gangguan yang relevan, lalu hasilnya diserahkan bersama gambar dan daftar perubahan.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Penggantian menyeluruh layak dipertimbangkan saat kondisi fisik tidak dapat dipisahkan dengan aman, suku cadang kritis tidak lagi tersedia, kegagalan berulang menunjukkan penyebab sistemik, atau kebutuhan gedung berubah sehingga konfigurasi lama tidak memadai. Jangan menyamakan “produk baru” dengan bukti sistem aman; penerapan bangunan tetap memerlukan koordinasi desain, pemeriksaan, pengujian, dan penerimaan yang sesuai ([PP 16/2021](https://peraturan.bpk.go.id/Details/161846/pp-no-16)).
 
-### KR-20
+## Faktor yang mengubah hasil keputusan
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Pertama, kelayakan teknis. Ukur kondisi pit, ruang atas, rel, tumpuan, dinding, bukaan, dan akses; telusuri korosi, retak, deformasi, air, serta beban tambahan. [NEEDS PEMERIKSAAN TEKNIS: keputusan akhir memerlukan data ukur, gambar terkoordinasi, dan penilaian tenaga kompeten.] Tanpa data itu, perbandingan biaya hanya perkiraan.
 
-### KR-21
+Kedua, gangguan dan keadaan sementara. Pekerjaan bongkar, pengangkatan, isolasi energi, debu, kebisingan, dan akses ke area publik dapat menciptakan risiko baru. Rencana keselamatan konstruksi perlu membagi tanggung jawab pemilik, perancang, kontraktor, dan pengawas, termasuk perlindungan penghuni gedung selama pekerjaan ([Pedoman SMKK](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi)).
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Ketiga, risiko sisa dan bukti. Catat bahaya yang belum tertutup, pengendalian yang dipilih, siapa yang berwenang, dan kapan efektivitasnya diperiksa. Persyaratan keselamatan kerja lift juga mencakup peran, pemeriksaan, pengujian, dokumentasi, dan pemeliharaan; satu stiker servis atau pernyataan vendor tidak membuktikan seluruh sistem layak ([Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026)).
 
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-09
-
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-11
-
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
-
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-39
-
-- **Original sources:** [PP 16/2021 building implementation](https://peraturan.bpk.go.id/Details/161846/pp-no-16), [ISO lift standards catalogue](https://www.iso.org/committee/53970/x/catalogue/).
-- **Purpose for this article:** Ground traffic brief, shaft/pit/overhead and structure, power, doors/landings, accessibility, fire/emergency, communication, and commissioning interfaces.
-- **Safe grounded facts:** Rated load, speed, car size, shaft sketch, or traffic-calculator output does not prove service quality, structure, fire operation, accessible use, rescue, or acceptance.
-- **Limits:** Use measured building/use inputs, current local criteria and relevant lift standards, specialist traffic and engineering work, coordinated drawings, integrated tests, and authority acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-04-06` → `/artikel/checklist-inspeksi-dan-perawatan-hoistway-pit-overhead-machine-space-structure-and-building-interfaces.html` — Checklist Inspeksi dan Perawatan Hoistway, pit, overhead, machine space, structure, and building interfaces
-- `ELV-04-07` → `/artikel/diagnosis-masalah-hoistway-pit-overhead-machine-space-structure-and-building-interfaces-gejala-penyebab-dan-batas-perbaikan.html` — Diagnosis Masalah Hoistway, pit, overhead, machine space, structure, and building interfaces: Gejala, Penyebab, dan Batas Perbaikan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Keempat, biaya siklus hidup. Bandingkan biaya awal, penghentian layanan, pekerjaan sipil, energi, suku cadang, pelatihan, inspeksi, dan kemungkinan kegagalan berulang. Gunakan rentang dan asumsi yang tertulis. Jangan memasukkan harga, umur pakai, atau penghematan yang belum memiliki penawaran dan data aset.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan gedung mengalami pintu sering gagal, sementara pit kering, rel lurus, dan gambar lama masih cocok dengan kondisi lapangan. Jika penyebab kendali dan pintu terukur jelas, perbaikan atau modernisasi terbatas dapat dipilih, dengan uji integrasi dan rencana suku cadang.
+
+Skenario lain: gedung mengubah lantai teratas menjadi ruang dengan akses publik, tetapi overhead sempit dan jalur kabel baru bersinggungan dengan balok. Modernisasi hanya boleh dipilih setelah analisis struktur, akses, dan operasi darurat menyatakan antarmukanya dapat diselesaikan. Bila tidak, penggantian konfigurasi atau perubahan ruang mungkin lebih jujur daripada memaksa paket lama.
+
+Untuk kegagalan berulang yang berpindah-pindah antara pit, rel, kendali, dan daya, mintalah diagnosis akar masalah sebelum menyetujui komponen berikutnya. Kawan Elevator.co.id, keputusan yang dapat dipertanggungjawabkan biasanya memiliki tiga berkas: kondisi awal, pilihan beserta asumsi, dan bukti penerimaan setelah pekerjaan.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Hoistway, pit, overhead, machine space, structure, and building interfaces Diperbaiki, Dimodernisasi, atau Diganti”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah memakai usia sebagai satu-satunya pemicu. Usia memberi sinyal untuk memeriksa, bukan vonis mengganti. Kesalahan kedua adalah mengganti mesin atau kendali tanpa memeriksa tumpuan, ruang bebas, daya, ventilasi, dan sistem kebakaran. Kesalahan ketiga adalah menghitung harga barang tetapi melupakan penghentian layanan, pekerjaan sipil, pengujian, dan pengelolaan area publik.
 
-## Objection or shortcut to address
+Periksa setiap usulan dengan pertanyaan sederhana: bagian mana yang terbukti rusak; kondisi apa yang diasumsikan; antarmuka gedung mana yang berubah; risiko sementara siapa yang mengendalikan; uji apa yang menunjukkan hasil; dan dokumen apa yang akan diserahkan. Jika jawaban berhenti pada brosur atau foto sertifikat, minta bukti yang terhubung ke model, lokasi, tanggal, dan ruang lingkup pekerjaan.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Jalan pintas yang sering menggoda
 
-## Required conclusion
+Jalan pintasnya adalah memesan paket retrofit yang sama dengan gedung lain karena dianggap pasti cocok. Padahal ukuran, struktur, pola lalu lintas, utilitas, dan batas operasi tiap gedung berbeda. Paket tersebut mungkin mengurangi waktu desain, tetapi tidak menghapus kebutuhan pengukuran dan koordinasi. Alternatif yang lebih aman adalah meminta survei kondisi, gambar usulan, daftar deviasi, rencana keadaan sementara, serta kriteria uji sebelum kontrak disetujui.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Kesimpulan: pilih berdasarkan bukti, bukan label
 
-## Draft completion checklist
+Perbaiki bagian yang kerusakannya terlokalisasi dan terbukti; modernisasi ketika subsistem usang dapat diganti dengan antarmuka gedung yang terverifikasi; ganti ketika kondisi menyeluruh, kebutuhan berubah, atau bukti dan risiko sisa membuat opsi lama tidak layak. Susun keputusan dalam perbandingan teknis, gangguan, risiko, bukti, dan biaya siklus hidup.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah berikutnya adalah menunjuk tenaga kompeten untuk memeriksa hoistway, pit, overhead, ruang mesin, struktur, serta antarmuka bangunan; minta tiga skenario tertulis—perbaikan, modernisasi, penggantian—dengan asumsi dan uji penerimaan masing-masing. Untuk menata permintaan awal, Anda dapat mulai dari [beranda Elevator.co.id](/) lalu membawa daftar pertanyaan ini kepada pemeriksa. Teman Elevator.co.id, tunda keputusan bila data ukur atau tanggung jawab pengendalian belum jelas. Aturan operasinya sederhana: tidak ada perubahan permanen sebelum kondisi awal, risiko sementara, kompatibilitas, dan bukti penerimaan dapat ditelusuri.

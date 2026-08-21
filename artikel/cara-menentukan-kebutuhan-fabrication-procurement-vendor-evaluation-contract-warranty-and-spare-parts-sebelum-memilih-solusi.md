@@ -3,7 +3,8 @@ article_id: ELV-11-02
 title: "Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi"
 slug: "cara-menentukan-kebutuhan-fabrication-procurement-vendor-evaluation-contract-warranty-and-spare-parts-sebelum-memilih-solusi"
 description: "Pembaca dapat mengumpulkan data lapangan, menetapkan requirement, dan menyaring solusi yang tidak cocok."
-status: outline
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-01-22"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,61 +17,34 @@ technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
+  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
   - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
   - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
   - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
   - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
   - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
   - "https://www.iso.org/standard/62542.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/80553.html"
   - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
   - "https://www.iso.org/standard/62085.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi
 
-## Assignment lock
+Halo, Sobat Elevator.co.id! Jangan mulai dari daftar harga ketika kebutuhan elevator belum tertulis. Mulailah dari fungsi yang harus dilayani, kondisi lokasi, siapa penggunanya, risiko yang harus dikendalikan, serta bukti apa yang akan membuat pekerjaan diterima. Dari sana, ringkasan kebutuhan dapat diturunkan menjadi ruang lingkup fabrikasi, pengadaan, evaluasi penyedia, kontrak, garansi, dan suku cadang yang bisa dibandingkan.
 
-- **Writer task:** Expand this file into one complete article answering: “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”
-- **Reader and situation:** Pemilik, operator, atau perencana yang sedang menyusun requirement brief.
-- **Reader outcome:** Pembaca dapat mengumpulkan data lapangan, menetapkan requirement, dan menyaring solusi yang tidak cocok.
-- **Primary intent:** Menerjemahkan fungsi, lokasi, pengguna, risiko, dan target mutu menjadi persyaratan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Sobat Elevator.co.id`
-- **Natural variants:** `Kawan Elevator.co.id` and `Teman Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menghitung anggaran rinci atau menjelaskan urutan pelaksanaan; intent tersebut dimiliki ELV-11-04 dan ELV-11-05.
-- **Final public route:** `/artikel/cara-menentukan-kebutuhan-fabrication-procurement-vendor-evaluation-contract-warranty-and-spare-parts-sebelum-memilih-solusi.html`
-- **Appointed CMS date:** `2026-01-22` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: kumpulkan data lapangan bertanggal, ubah temuan menjadi persyaratan yang dapat diperiksa, minta penawaran dengan format yang sama, lalu pilih penyedia berdasarkan bukti yang cocok dengan model dan konfigurasi yang ditawarkan—bukan berdasarkan logo atau klaim umum. Siklus identifikasi bahaya, penilaian, pengendalian, dan peninjauan perlu mengikuti kondisi nyata; matriks generik tidak dapat menetapkan risiko sebuah lokasi tanpa data spesifik. [ILO menjelaskan pendekatan pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) dan [lima langkah penilaian risiko](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
 
-## Opening instructions
+Artikel ini bukan persetujuan desain, penetapan kepatuhan, atau janji harga dan masa garansi. Sebelum keputusan final, tutup [NEEDS SITE SURVEY: kondisi lokasi, antarmuka, dan baseline belum tersedia], [NEEDS TECHNICAL DESIGN: kapasitas, geometri, kompatibilitas, dan kriteria uji harus disahkan tenaga kompeten], serta [NEEDS LEGAL/COMMERCIAL REVIEW: aturan terkini, tanggung jawab kontrak, dan jangka garansi perlu diverifikasi untuk proyek nyata].
 
-- Open with the exact short salutation: **“Halo, Sobat Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Elevator.co.id`, `Kawan Elevator.co.id`, or `Teman Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
+Aset lokal ini adalah ilustrasi umum, bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,223 +55,71 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-09
-
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-11
-
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
-
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-40
-
-- **Original sources:** [ISO 9001:2015](https://www.iso.org/standard/62085.html).
-- **Purpose for this article:** Ground asset register, service scope, inspection, defect triage, parts/obsolescence, changes, testing, records, handover, warranty, and replacement.
-- **Safe grounded facts:** A maintenance visit, replaced part, reset fault, modernization package, or vendor certification does not itself prove root cause, compatibility, safety function, or return to service.
-- **Limits:** Verify exact asset/configuration/history, defect and risk, OEM/engineered compatibility, approved work, independent/statutory checks as applicable, functional/integrated tests, records, and authorized release. ## Topic-family coverage matrix | Topic family | Main evidence records | Safe ground for the article set | Remaining gate before definitive drafting | | --- | --- | --- | --- | | `ELV-01` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38 | Use the reviewed elevator.co.id evidence to ground “Dasar elevator, istilah, sejarah, dan system map” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-02` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed elevator.co.id evidence to ground “Tipe elevator dan use-case selection” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-03` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-39 | Use the reviewed elevator.co.id evidence to ground “Traffic analysis, capacity, speed, quantity, and service performance” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-04` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-39 | Use the reviewed elevator.co.id evidence to ground “Hoistway, pit, overhead, machine space, structure, and building interfaces” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-05` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38 | Use the reviewed elevator.co.id evidence to ground “Traction system, machine, ropes/belts, sheaves, brakes, and counterweight” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-06` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38 | Use the reviewed elevator.co.id evidence to ground “Hydraulic and alternative low-rise drive systems” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-07` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed elevator.co.id evidence to ground “Car, sling, doors, landing equipment, fixtures, and finishes” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-08` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed elevator.co.id evidence to ground “Controls, sensors, electrical power, communication, and monitoring” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-09` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed elevator.co.id evidence to ground “Safety devices, accessibility, fire/emergency operation, and rescue boundary” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-10` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-39, KR-40 | Use the reviewed elevator.co.id evidence to ground “Survey, requirements, specification, design coordination, and documentation” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-11` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-40 | Use the reviewed elevator.co.id evidence to ground “Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-12` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39, KR-40 | Use the reviewed elevator.co.id evidence to ground “Installation, testing, commissioning, acceptance, and handover” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-13` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-40 | Use the reviewed elevator.co.id evidence to ground “Operation, statutory inspection, maintenance, cleaning, and service management” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-14` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-40 | Use the reviewed elevator.co.id evidence to ground “Fault diagnosis, repair, modernization, obsolescence, and replacement” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-15` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed elevator.co.id evidence to ground “Elevator by building type and operating context” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ELV-16` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-09, KR-10, KR-11, KR-12, KR-16, KR-18, KR-36, KR-37, KR-39, KR-40 | Use the reviewed elevator.co.id evidence to ground “Energy, ride quality, noise, environment, lifecycle cost, and performance evidence” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | Coverage result: **16/16 topic families mapped; 0 families without a starting evidence set.** ## Cross-catalog fact bank 1. A management system, legal duty, risk assessment, engineered control, permit, competence record, inspection, and audit prove different things. 2. Control selection starts with eliminating or controlling the hazard at source; PPE does not repair a weak design. 3. A generic article cannot approve a real site, task, worker, product, chemical, machine, lift, electrical system, confined space, height system, or fire strategy. 4. Indonesian technical K3 status must be rechecked against Permenaker 11/2026 before quoting provisions. 5. A certificate image does not prove issuer, current status, scope, identity match, delivered product, installation quality, or system performance. 6. Emergency planning must match credible scenarios, people, accessibility, on-site capability, communications, external responders, and drills. 7. An exposure observation is not a measured assessment; a measured exposure is not a diagnosis or fitness decision. 8. Activity counts and injury rates alone do not establish control effectiveness or culture. 9. Controlled documents direct current work; records preserve evidence of what occurred. 10. Product, service, price, credential, client, case, warranty, and outcome claims require dated operator-approved evidence. ## Evidence gaps and publication gates | Gate | Affected topic families | Resolution required | | --- | --- | --- | | `EG-01` Actual workplace, task, people, interfaces, environment, baseline, and current conditions | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Dated site/task survey, affected-person consultation, scope, assumptions, change check, and accountable owner | | `EG-02` Technical design, capacity, geometry, rating, spacing, load, protection, or acceptance | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Current full code/standard, design basis, calculations, product/system evidence, competent design, and approval | | `EG-03` Work method, control sequence, equipment, permit, isolation, test, inspection, or return to service | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Site-specific assessment and approved method, manufacturer instructions, competent roles, hold points, records, and supervision | | `EG-04` Rescue, emergency action, evacuation, first aid, medical response, or public-service capability | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Credible scenarios, trained team, compatible equipment, accessibility, drill evidence, clinical/emergency review, and confirmed liaison | | `EG-05` Electrical energy, lifting configuration, machinery intervention, atmosphere, hot work, or SIMOPS | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Discipline-specific hazard evidence, isolation/interface plan, authorized competence, field verification, and change controls | | `EG-06` Confined-space identity, atmosphere, ventilation, testing, entry, standby, or rescue | `ELV-02`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-15` | Current consolidated law, actual space/configuration/contents, competent assessment, calibrated testing plan, permit system, and viable rescue plan | | `EG-07` Fire scenario, occupancy, active/passive system, egress, impairment, or authority acceptance | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Building/fire strategy, current PUPR/local rules and full standards, drawings, commissioning/maintenance evidence, fire engineer, and AHJ review | | `EG-08` Exposure, symptom, health surveillance, diagnosis, fitness, treatment, psychosocial assessment, or personal data | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Qualified occupational-health/hygiene/clinical assessment, lawful basis, consent/access controls, current evidence, and emergency escalation where needed | | `EG-09` Product, model, certificate, standard edition, marking, manufacturer instruction, compatibility, or system performance | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Exact identity and scope match, original issuer/manufacturer source, current validity, installation/configuration evidence, inspection/test, and competent acceptance | | `EG-10` Legal applicability, reporting, licence, credential, role, regulator, audit, or compliance | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Current consolidated Indonesian sources, entity/site/activity match, official record, and qualified K3/legal review | | `EG-11` Incident/case, photograph, interview, worker report, culture result, metric, or health/disciplinary record | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Original provenance, permission/lawful basis, de-identification, method/denominator, limitations, current legal/privacy review, and publication approval | | `EG-12` Service, shop item, price, stock, availability, response, client, warranty, guarantee, or commercial outcome | `ELV-01`, `ELV-02`, `ELV-03`, `ELV-04`, `ELV-05`, `ELV-06`, `ELV-07`, `ELV-08`, `ELV-09`, `ELV-10`, `ELV-11`, `ELV-12`, `ELV-13`, `ELV-14`, `ELV-15`, `ELV-16` | Dated operator-approved commercial record with owner, scope, exclusions, evidence, effective period, and refresh date | ## Source-refresh triggers Recheck immediately when Indonesian K3, construction, health, privacy, consumer, product, electrical, fire, environmental, or local rules change; when a standard or manufacturer document changes; when the site/task/people/equipment/material differ; when an article introduces a number, procedure, certificate, safety, compliance, performance, medical, price, case, or warranty claim; or six months after the verification date. ## Next authorized stage The later outline and constrained-writing-instruction stage may use this file only when separately authorized. Article drafting, Markdown article creation, HTML hydration, publication dating, sitemap generation, deployment, and Google Search Console submission are intentionally **not performed in this research stage**.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-11-01` → `/artikel/panduan-dasar-fabrication-procurement-vendor-evaluation-contract-warranty-and-spare-parts-istilah-komponen-dan-cara-kerja.html` — Panduan Dasar Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts: Istilah, Komponen, dan Cara Kerja
-- `ELV-11-03` → `/artikel/perbandingan-opsi-fabrication-procurement-vendor-evaluation-contract-warranty-and-spare-parts-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts: Kriteria, Trade-off, dan Red Flag
-- `ELV-11-04` → `/artikel/cara-mengukur-dan-menyusun-anggaran-fabrication-procurement-vendor-evaluation-contract-warranty-and-spare-parts.html` — Cara Mengukur dan Menyusun Anggaran Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Definisikan kebutuhan sebelum meminta harga
 
-- **Purpose:** Nyatakan fungsi, kondisi, kuantitas, batas scope, antarmuka, dan hasil penerimaan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Buat satu lembar ringkasan kebutuhan yang menjawab enam pertanyaan: elevator ini melayani fungsi apa, berada di mana, dipakai oleh siapa, bekerja pada kondisi apa, batas pekerjaan ada di mana, dan bukti penerimaan apa yang diperlukan. Catat identitas aset atau proyek, bangunan dan area kerja, jumlah unit yang termasuk, antarmuka dengan struktur, listrik, sistem kebakaran, akses kerja, serta kondisi operasi yang diketahui. Pisahkan fakta hasil survei dari asumsi yang masih harus dikonfirmasi. Untuk konteks istilah dan langkah berikutnya, Anda dapat kembali ke [beranda Elevator.co.id](/) setelah ringkasan siap.
+
+Tuliskan persyaratan dalam bentuk yang dapat diperiksa. “Pintu bagus” terlalu kabur; “jenis, ukuran, antarmuka, dokumen produk, dan metode verifikasi disepakati sebelum pengadaan” lebih berguna. Untuk fabrikasi, cantumkan gambar yang menjadi acuan, material atau komponen yang harus ditelusuri, toleransi yang akan disetujui oleh perancang, perlindungan selama pengiriman, dan rekaman inspeksi. Untuk pengadaan, tetapkan identitas model, konfigurasi, aksesori, dokumen manual, suku cadang awal, serta batas perubahan.
+
+Hubungkan persyaratan dengan risiko. Jika pekerjaan berpotensi mempertemukan teknisi dengan energi listrik, ruang kerja terbatas, beban angkat, atau area yang tetap dihuni, minta penyedia menjelaskan titik sambungan, otorisasi, pengamanan, dan bukti pemeriksaannya. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) memberi landasan keselamatan kerja, tetapi penerapan kewajiban tetap bergantung pada tempat kerja, aktivitas, orang, peralatan, dan aturan pelaksana yang relevan.
+
+Kawan Elevator.co.id, simpan juga daftar pertanyaan terbuka: data apa yang belum diukur, siapa pemilik keputusan, kapan perubahan harus disetujui, dan kondisi apa yang menghentikan pemilihan. Daftar ini mencegah asumsi berubah diam-diam menjadi janji kontrak.
 
 ## Buat penawaran benar-benar sebanding
 
-- **Purpose:** Susun komponen scope, inklusi, eksklusi, asumsi, logistik, pengujian, dan risiko.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kirimkan paket permintaan yang sama kepada setiap calon penyedia. Susun tabel dengan kolom: kebutuhan, respons penyedia, dokumen pendukung, inklusi, eksklusi, asumsi, harga yang akan diisi kemudian oleh tim pengadaan, dan pertanyaan klarifikasi. Artikel ini tidak menghitung anggaran rinci; yang penting adalah memastikan setiap angka—bila nanti diisi—mengacu pada lingkup pekerjaan dan basis yang sama.
+
+Minta pemisahan yang tegas antara fabrikasi, pengadaan, pekerjaan di lokasi, pengujian, dokumentasi, pelatihan, garansi, dan suku cadang. Tanyakan siapa menyediakan alat bantu, akses, proteksi area publik, penyimpanan, pengangkutan, serta penanganan pekerjaan ulang. Untuk pekerjaan di bangunan yang tetap beroperasi, minta asumsi mengenai jam akses, koordinasi penghuni, dan kondisi penghentian layanan tanpa menganggap asumsi tersebut sebagai fakta proyek.
+
+Gunakan format perubahan: apa yang memicu perubahan, siapa yang menyetujui, dokumen apa yang direvisi, dan bagaimana dampaknya pada jadwal, mutu, risiko, serta garansi. Antarmuka antarpenyedia juga harus memiliki pemilik. Pedoman keselamatan konstruksi ILO menekankan bahwa peran klien, perancang, kontraktor, subkontraktor, pengawas, dan pekerja berubah menurut fase dan pekerjaan simultan; [rujukan ILO](https://www.ilo.org/publications/safety-and-health-construction-revised-edition) dapat menjadi dasar untuk meminta pembagian tanggung jawab yang jelas.
+
+Jangan menjadikan “sesuai standar” sebagai satu-satunya kolom. Minta edisi standar, ruang lingkup penerapan, identitas produk, batasan, dan cara verifikasi. Untuk elevator, [ISO 8100-1:2026](https://www.iso.org/standard/80553.html) hanya menjadi salah satu rujukan yang perlu dicocokkan dengan adopsi Indonesia, tanggal instalasi, desain, pemeriksaan, dan penerimaan otoritas yang berlaku pada proyek.
 
 ## Dokumen yang membuktikan hal berbeda
 
-- **Purpose:** Bedakan data produk, sertifikat, laporan tes, metode, pengalaman, garansi, dan persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Susun berkas penyedia sebagai rantai bukti, bukan tumpukan lampiran. Lembar data menjelaskan karakteristik produk yang dinyatakan. Gambar dan perhitungan menjelaskan basis desain. Sertifikat menunjukkan penerbit, lingkup, identitas, dan masa berlaku yang harus diverifikasi. Laporan inspeksi atau tes menunjukkan apa yang diperiksa, dengan metode dan hasil yang tercatat. Manual menjelaskan penggunaan dan batasan; metode kerja menjelaskan bagaimana pekerjaan akan dikendalikan; persetujuan menunjukkan siapa yang berwenang menerima.
+
+Logo, foto sertifikat, rating marketplace, atau kalimat “sesuai standar” tidak membuktikan bahwa unit yang dikirim sama dengan dokumen, terpasang benar, atau bekerja sebagai sistem. Prinsip pembandingan klaim konsumen dalam [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999) dan [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf) mendukung praktik meminta informasi yang dapat ditelusuri, tetapi bukan dasar untuk mengarang stok, harga, klien, sertifikat, atau garansi.
+
+Periksa kompetensi sesuai tugas, bukan hanya jabatan. Catat penerbit, skema, tingkat, tanggal berlaku, identitas pemegang, konteks praktik, dan batas kewenangan. [BNSP](https://bnsp.go.id/) dan [catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) dapat menjadi rujukan umum untuk memeriksa profil peran, pelatihan, asesmen praktis, otorisasi, pengawasan, dan penyegaran setelah perubahan. Verifikasi catatan resmi dan persyaratan pekerjaan tetap diperlukan; artikel ini tidak mengesahkan seseorang.
+
+Gunakan pengendalian dokumen: nomor revisi, pemilik, tanggal berlaku, distribusi, dan arsip. [ISO 15489-1](https://www.iso.org/standard/62542.html) membedakan kebutuhan pengelolaan rekaman dan konteks aksesnya, termasuk batasan data pribadi berdasarkan [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022). Simpan hanya data yang diperlukan, batasi akses, dan tetapkan siapa yang boleh mengubah atau menarik dokumen.
 
 ## Pertanyaan wajib kepada penyedia
 
-- **Purpose:** Buat daftar pertanyaan konkret yang mengungkap kapasitas, batas, tanggung jawab, dan perubahan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan pertanyaan berikut dalam lembar klarifikasi, lalu minta jawaban tertulis beserta bukti:
 
-## Red flag dan biaya yang sering tersembunyi
+- Model, konfigurasi, edisi dokumen, dan komponen apa yang sebenarnya ditawarkan? Bagaimana identitas itu dicocokkan saat penerimaan?
+- Bagian mana yang dibuat, dibeli, dipasang, diuji, atau diserahkan oleh pihak lain? Siapa pemilik setiap antarmuka?
+- Apa inklusi, eksklusi, asumsi akses, kebutuhan utilitas, dan kondisi yang dapat mengubah lingkup pekerjaan?
+- Dokumen apa yang diberikan sebelum fabrikasi, sebelum pengiriman, saat pengujian, dan saat serah terima? Siapa yang menyetujui revisinya?
+- Bagaimana cacat ditriase, dicatat, diperbaiki, diuji ulang, dan dinyatakan boleh kembali beroperasi? [ISO 9001:2015](https://www.iso.org/standard/62085.html) mendukung pendekatan berbasis proses, rekaman, perubahan, dan peningkatan; itu bukan bukti bahwa penyedia tertentu telah memenuhi proyek ini.
+- Apa cakupan garansi, pengecualian, titik mulai, kewajiban akses, waktu respons yang disepakati, serta dampak modifikasi oleh pihak lain?
+- Untuk suku cadang: identitas, kompatibilitas, status usang, alternatif yang disetujui, rekaman penggantian, dan siapa yang memutuskan substitusi?
+- Bukti kompetensi dan otorisasi personel mana yang relevan dengan tugas ini, dan bagaimana pengawasan dilakukan saat kondisi berubah?
 
-- **Purpose:** Jelaskan tanda scope kabur, klaim tanpa bukti, serta biaya akses, tunggu, rework, atau handover.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Teman Elevator.co.id, minta jawaban “tidak termasuk” sama seriusnya dengan jawaban “termasuk”. Kekosongan itulah yang paling sering berubah menjadi pekerjaan tambahan atau sengketa tanggung jawab.
+
+## Tanda bahaya dan biaya yang sering tersembunyi
+
+Waspadai penawaran satu baris, spesifikasi tanpa identitas model, sertifikat tanpa lingkup, garansi tanpa pengecualian, serta suku cadang yang hanya disebut “tersedia”. Tanda bahaya lain adalah penyedia menolak menyatakan asumsi, mengganti komponen tanpa persetujuan, atau menyamakan kunjungan pemeliharaan dengan bukti kompatibilitas dan keselamatan fungsi. [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012) mengatur penerapan sistem manajemen keselamatan dan kesehatan kerja; gunakan sebagai rujukan awal dan cocokkan kewajiban serta bukti dengan kondisi proyek.
+
+Biaya tersembunyi biasanya muncul dari lingkup pekerjaan yang belum tegas: akses yang harus menunggu, proteksi area penghuni, penyimpanan, pengiriman ulang, inspeksi tambahan, pekerjaan ulang, integrasi dengan sistem gedung, atau dokumen serah terima yang tertunda. Jangan menebak nilainya. Jadikan setiap potensi biaya sebagai asumsi yang ditulis, pemilik keputusan, dan pemicu perubahan yang dapat diperiksa.
+
+Jalan pintas yang sering dipilih adalah mengambil penawaran termurah lalu “menyesuaikan detail belakangan”. Cara ini gagal ketika basis perbandingan berbeda: satu penyedia memasukkan pengujian dan dokumentasi, yang lain tidak; satu menjamin komponen tertentu, yang lain mengecualikannya. Alternatif yang lebih aman adalah menyamakan template respons, menandai ketidakpastian, lalu melakukan klarifikasi sebelum keputusan komersial.
 
 ## Penerimaan, serah terima, dan keputusan akhir
 
-- **Purpose:** Tentukan siapa memeriksa apa, rekaman yang disimpan, dan kapan pembayaran/acceptance layak.
-- **Tie back to this article:** Keep the explanation specific to “Cara Menentukan Kebutuhan Fabrication, procurement, vendor evaluation, contract, warranty, and spare parts Sebelum Memilih Solusi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tetapkan matriks penerimaan sejak ringkasan kebutuhan: siapa memeriksa identitas dan kuantitas, siapa menilai kesesuaian teknis, siapa menyaksikan pengujian, siapa menutup temuan, dan siapa berwenang merilis penggunaan. Bukti dapat berupa daftar periksa bertanggal, gambar kondisi terpasang yang disetujui, laporan inspeksi atau tes, daftar cacat dan tindakan, manual, daftar suku cadang, catatan pelatihan, serta pernyataan status garansi. Rekaman tersebut membuktikan hal yang berbeda dan tidak boleh saling menggantikan.
 
-## Objection or shortcut to address
+Jangan menyatakan sistem layak atau patuh hanya karena ada stiker pemeliharaan atau dokumen lama. Status elevator perlu dicocokkan dengan teks dan persyaratan terkini, sejarah aset, personel kompeten, pemeriksaan/pengujian, cacat, pemeliharaan, dan bukti otoritas; lihat [Permenaker 6/2017](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf) serta status [Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026). [NEEDS ACCEPTANCE REVIEW: kriteria uji, temuan terbuka, dan otorisasi rilis harus diisi oleh tim proyek].
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Pembayaran atau penerimaan baru layak diproses setelah lingkup pekerjaan yang disepakati, hasil pemeriksaan, dokumen wajib, dan daftar temuan memiliki status yang jelas. Jika satu bukti penting belum ada, catat sebagai kondisi terbuka dengan pemilik dan tanggal tindak lanjut, bukan sebagai “dianggap selesai”.
 
-## Required conclusion
+## Kesimpulan: pilih berdasarkan persyaratan dan bukti
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Cara menentukan kebutuhan fabrikasi, pengadaan, evaluasi penyedia, kontrak, garansi, dan suku cadang adalah memulai dari fungsi serta kondisi nyata, mengubahnya menjadi persyaratan terukur dan batas lingkup pekerjaan, meminta respons dalam format sebanding, kemudian memeriksa bukti produk, kompetensi, metode, pengujian, garansi, dan suku cadang sampai serah terima.
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah Anda berikutnya: buat ringkasan kebutuhan bertanggal, lakukan tinjauan lokasi dan desain yang berwenang, kirim templat klarifikasi yang sama kepada penyedia, lalu minta pemeriksaan teknis, K3, hukum, dan komersial sebelum menandatangani. Simpan nomor dokumen, revisi, dan bukti persetujuan pada berkas pengadaan agar setiap persyaratan tetap dapat ditelusuri. Aturan operasinya sederhana: jika identitas, lingkup, bukti, atau pemilik keputusan belum jelas, jangan mengubahnya menjadi janji kontrak atau keputusan pembelian.

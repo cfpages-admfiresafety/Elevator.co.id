@@ -2,8 +2,9 @@
 article_id: ELV-03-04
 title: "Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance"
 slug: "cara-mengukur-dan-menyusun-anggaran-traffic-analysis-capacity-speed-quantity-and-service-performance"
-description: "Pembaca dapat mencatat input, komponen biaya, pengecualian, risiko, dan contingency tanpa mengarang harga tetap."
-status: outline
+description: "Panduan mencatat ukuran, jumlah, asumsi, pengecualian, risiko, dan cadangan biaya untuk anggaran awal layanan elevator tanpa mengarang harga tetap."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-05-11"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -41,37 +42,7 @@ sources:
   - "https://www.iso.org/committee/53970/x/catalogue/"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”
-- **Reader and situation:** Pemilik atau estimator yang perlu scope berbasis data sebelum meminta penawaran.
-- **Reader outcome:** Pembaca dapat mencatat input, komponen biaya, pengecualian, risiko, dan contingency tanpa mengarang harga tetap.
-- **Primary intent:** Mengumpulkan ukuran, kuantitas, asumsi, dan variabel biaya untuk anggaran awal Traffic analysis, capacity, speed, quantity, and service performance.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Teman Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Kawan Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menerbitkan harga abadi atau menggantikan quote proyek; transaksi dimiliki /kontak-kami/, sedangkan kontrol kerja dimiliki ELV-03-05.
-- **Final public route:** `/artikel/cara-mengukur-dan-menyusun-anggaran-traffic-analysis-capacity-speed-quantity-and-service-performance.html`
-- **Appointed CMS date:** `2025-05-11` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Teman Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Elevator.co.id`, `Sobat Elevator.co.id`, or `Kawan Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,226 +53,93 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Teman Elevator.co.id! Anggaran awal untuk analisis lalu lintas, kapasitas, kecepatan, jumlah unit, dan kinerja layanan elevator (lift) sebaiknya disusun dari lembar input yang dapat diperiksa, bukan dari satu harga per unit. Catat kondisi gedung dan pola penggunaan, ubah setiap kebutuhan menjadi kuantitas pekerjaan, lalu pisahkan harga dasar, hal yang belum termasuk, risiko, dan cadangan biaya. Dengan cara itu, beberapa penawaran dapat dibandingkan tanpa berpura-pura bahwa harga akan tetap sama di semua proyek.
 
-### KR-01
+Jawaban singkatnya: ukur kebutuhan layanan lebih dulu, tetapkan definisi penerimaan, kemudian minta penyedia mengisi tabel biaya dengan asumsi yang sama. Data yang dapat mengubah hasil adalah fungsi gedung, jumlah lantai dan pemberhentian, pola puncak, kondisi ruang luncur dan mesin, daya yang tersedia, akses pengangkutan, jadwal kerja, serta kriteria pemeriksaan. Karena data proyek belum diberikan, bagian yang menentukan angka akhir tetap perlu ditinjau tenaga ahli: **[NEEDS DATA PROYEK: pola lalu lintas, ukuran bangunan, kondisi instalasi, dan kriteria penerimaan belum tersedia]**.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
 
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-09
-
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-11
-
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
-
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-39
-
-- **Original sources:** [PP 16/2021 building implementation](https://peraturan.bpk.go.id/Details/161846/pp-no-16), [ISO lift standards catalogue](https://www.iso.org/committee/53970/x/catalogue/).
-- **Purpose for this article:** Ground traffic brief, shaft/pit/overhead and structure, power, doors/landings, accessibility, fire/emergency, communication, and commissioning interfaces.
-- **Safe grounded facts:** Rated load, speed, car size, shaft sketch, or traffic-calculator output does not prove service quality, structure, fire operation, accessible use, rescue, or acceptance.
-- **Limits:** Use measured building/use inputs, current local criteria and relevant lift standards, specialist traffic and engineering work, coordinated drawings, integrated tests, and authority acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jasa-service-lift-5/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jasa-service-lift-4/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jasa-service-lift-3/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-03-02` → `/artikel/cara-menentukan-kebutuhan-traffic-analysis-capacity-speed-quantity-and-service-performance-sebelum-memilih-solusi.html` — Cara Menentukan Kebutuhan Traffic analysis, capacity, speed, quantity, and service performance Sebelum Memilih Solusi
-- `ELV-03-03` → `/artikel/perbandingan-opsi-traffic-analysis-capacity-speed-quantity-and-service-performance-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Traffic analysis, capacity, speed, quantity, and service performance: Kriteria, Trade-off, dan Red Flag
-- `ELV-03-05` → `/artikel/tahapan-pekerjaan-traffic-analysis-capacity-speed-quantity-and-service-performance-persiapan-pelaksanaan-dan-kontrol-mutu.html` — Tahapan Pekerjaan Traffic analysis, capacity, speed, quantity, and service performance: Persiapan, Pelaksanaan, dan Kontrol Mutu
-- `ELV-03-06` → `/artikel/checklist-inspeksi-dan-perawatan-traffic-analysis-capacity-speed-quantity-and-service-performance.html` — Checklist Inspeksi dan Perawatan Traffic analysis, capacity, speed, quantity, and service performance
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Gambar di atas adalah aset lokal proyek, bukan dokumentasi proyek tertentu.
 
 ## Definisikan kebutuhan sebelum meminta harga
 
-- **Purpose:** Nyatakan fungsi, kondisi, kuantitas, batas scope, antarmuka, dan hasil penerimaan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan satu kalimat fungsi: siapa yang menggunakan elevator, untuk kegiatan apa, dan hasil layanan seperti apa yang harus diterima. Tetapkan *scope* (batas pekerjaan) agar data yang diminta dan biaya yang dibandingkan merujuk pada pekerjaan yang sama. Istilah *traffic analysis* berarti analisis arus penumpang dan barang; *capacity* adalah kapasitas angkut yang direncanakan; *speed* adalah kecepatan kerja yang ditetapkan; *quantity* adalah jumlah unit atau pekerjaan; sedangkan *service performance* adalah ukuran kinerja layanan yang disepakati. Terjemahkan istilah itu ke pertanyaan yang bisa dijawab dan dibuktikan.
+
+Buat lembar ukur dengan kolom “data”, “sumber”, “tanggal”, “asumsi”, dan “dampak biaya”. Isi, setidaknya, hal berikut:
+
+- fungsi tiap lantai dan jam penggunaan yang perlu dilayani;
+- jumlah pemberhentian, posisi ruang mesin, ruang luncur, pit, overhead, dan jalur akses yang benar-benar tersedia;
+- muatan atau jenis barang yang akan dibawa, batas akses, serta kebutuhan pengguna dengan mobilitas berbeda;
+- jumlah unit yang ada atau direncanakan, kondisi peralatan, umur dokumen, dan pekerjaan yang termasuk penggantian atau hanya penyesuaian;
+- daya listrik, komunikasi, pekerjaan sipil, proteksi kebakaran, dan interface dengan sistem gedung;
+- ukuran layanan yang akan diperiksa, misalnya ketersediaan rekaman perawatan, waktu respons yang disepakati, atau hasil uji yang ditentukan dalam dokumen proyek—bukan angka yang ditebak dari artikel.
+
+Hasil ukur tersebut perlu dicocokkan dengan persyaratan bangunan yang berlaku. [PP No. 16 Tahun 2021](https://peraturan.bpk.go.id/Details/161846/pp-no-16) memberi konteks pelaksanaan bangunan, sementara [katalog komite standar lift ISO](https://www.iso.org/committee/53970/x/catalogue/) membantu menemukan dokumen standar yang relevan. Catatan itu belum membuktikan bahwa lift tertentu sudah memenuhi persyaratan; gambar terkoordinasi, pemeriksaan, pengujian, dan penerimaan proyek tetap diperlukan.
+
+Teman Elevator.co.id, jangan mengisi kolom kosong dengan angka “umum”. Tulis “belum diukur” dan minta survei atau gambar yang diperlukan. Jika perubahan fungsi gedung mengubah pola penggunaan, tandai lembar tersebut sebagai versi baru agar estimator tidak menghitung dari data lama. Pada rapat klarifikasi, sebutkan kembali data yang belum terjawab agar semua pihak bekerja dari daftar yang sama.
 
 ## Buat penawaran benar-benar sebanding
 
-- **Purpose:** Susun komponen scope, inklusi, eksklusi, asumsi, logistik, pengujian, dan risiko.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Penawaran mudah terlihat murah ketika beberapa pekerjaan disembunyikan di balik kata “standar”. Minta semua penyedia mengisi baris yang sama, lalu tandai apakah setiap baris termasuk, dikecualikan, atau bergantung pada asumsi. Struktur sederhana berikut membantu:
+
+| Kelompok biaya | Pertanyaan yang harus dijawab | Dampak bila belum jelas |
+|---|---|---|
+| Survei dan perencanaan | Siapa mengukur kondisi lapangan, membuat gambar, dan mengoordinasikan antarmuka? | Kunjungan ulang atau desain ulang dapat muncul kemudian. |
+| Peralatan dan jumlah | Unit, kapasitas, kecepatan, ukuran, dan aksesori apa yang dihitung? | Harga antarpenawaran tidak lagi sebanding. |
+| Pekerjaan pemasangan | Termasuk bongkar, angkut, alat bantu, pekerjaan sipil, listrik, dan perlindungan area? | Pemilik menanggung pekerjaan yang tidak tertulis. |
+| Pengujian dan penyerahan | Uji apa yang dilakukan, siapa menyaksikan, dan rekaman apa yang diberikan? | Pembayaran tertahan atau cacat sulit dilacak. |
+| Operasi awal | Termasuk pelatihan, suku cadang awal, kunjungan, dan masa pemantauan? | Biaya pemakaian awal berpindah tanpa keputusan sadar. |
+| Risiko dan cadangan | Risiko akses, pekerjaan bersamaan, cuaca, perubahan gambar, atau temuan tersembunyi ditulis di mana? | Cadangan habis untuk kejutan yang seharusnya dapat diantisipasi. |
+
+Minta tanggal berlaku, masa berlaku penawaran, satuan kuantitas, pajak atau pungutan yang diperlakukan bagaimana, serta pemicu perubahan. Jika penyedia memakai istilah *quote* (penawaran), pastikan format dan asumsi di dalamnya dapat dibandingkan. Jangan mengubah daftar pengecualian menjadi janji; jadikan ia bahan negosiasi dan persetujuan. Bila Anda sedang menilai kebutuhan *maintenance* (pemeliharaan), gunakan rute layanan yang relevan seperti [jasa service lift untuk pemeriksaan kebutuhan](/jasa-service-lift-5/) tanpa menganggap halaman layanan sebagai pengganti survei teknis. Untuk pekerjaan yang sudah berjalan, [jasa service lift dengan penanganan lanjutan](/jasa-service-lift-4/) dan [jasa service lift untuk dukungan berbeda](/jasa-service-lift-3/) hanya dipilih setelah cakupan, akses, dan bukti pekerjaan cocok.
+
+Keselamatan bukan baris tambahan yang boleh hilang. Dasar kewajiban bergantung pada tempat kerja dan aktivitas; [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) tidak dapat dipakai sendirian untuk menetapkan seluruh kewajiban proyek. Untuk pekerjaan konstruksi, koordinasi pemilik, perancang, kontraktor, dan pihak lain perlu dicatat sesuai pedoman [Permen PUPR No. 10 Tahun 2021](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi) dan panduan keselamatan konstruksi [ILO](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
 
 ## Dokumen yang membuktikan hal berbeda
 
-- **Purpose:** Bedakan data produk, sertifikat, laporan tes, metode, pengalaman, garansi, dan persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Satu berkas tidak membuktikan semuanya. Lembar data menjelaskan model atau karakteristik yang dinyatakan; sertifikat menunjukkan ruang lingkup penerbitan; laporan uji menunjukkan apa yang diuji, dengan metode dan tanggal tertentu; metode kerja menjelaskan langkah dan tanggung jawab; pengalaman hanya relevan bila proyek dan perannya dapat diverifikasi; garansi mengatur janji kontraktual; sedangkan persetujuan otoritas adalah keputusan pihak yang berwenang. Pisahkan kolom-kolom itu dalam evaluasi.
+
+Untuk kompetensi, catat nama pemegang, penerbit, skema, tingkat, tanggal berlaku, konteks praktik, serta siapa yang memberi otorisasi dan supervisi. Situs [BNSP](https://bnsp.go.id/) membantu menemukan informasi kelembagaan, tetapi artikel ini tidak mengautentikasi orang atau memberi izin kerja. Prinsip peran, kompetensi, dan kepemimpinan keselamatan dapat dibaca pada catatan [ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf). Pastikan data yang diterima cocok dengan pekerjaan aktual, bukan hanya foto kartu atau logo.
+
+Jika penawaran menyebut “sesuai standar”, minta standar dan edisi yang dimaksud, ruang lingkup, serta bukti yang melekat pada model atau instalasi tersebut. [ISO 8100-1:2026](https://www.iso.org/standard/80553.html) memiliki cakupan dan pengecualian yang harus dibaca dalam konteks lift dan tanggal instalasi; rujukan umum tidak otomatis membuktikan kesesuaian. Untuk pemeriksaan sistem manajemen, [ISO 19011:2018](https://www.iso.org/standard/70017.html) dan [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012) menekankan pentingnya ruang lingkup, kompetensi, bukti lapangan, temuan, tindakan, dan peninjauan—bukan sekadar jumlah checklist.
+
+Dalam transaksi, minta informasi yang dapat ditelusuri dan tidak menyesatkan. Perlindungan konsumen diatur oleh [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), sedangkan ketentuan perdagangan yang berlaku dapat dilihat pada [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf). Dokumen yang memuat identitas, rekaman kesehatan, atau data pekerja perlu dibatasi aksesnya; pertimbangkan [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022) dan prinsip rekaman pada [ISO 15489-1:2016](https://www.iso.org/standard/62542.html). Jangan mengirim salinan identitas lebih luas dari kebutuhan evaluasi.
 
 ## Pertanyaan wajib kepada penyedia
 
-- **Purpose:** Buat daftar pertanyaan konkret yang mengungkap kapasitas, batas, tanggung jawab, dan perubahan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kirim pertanyaan yang sama kepada setiap penyedia dan simpan jawabannya bersama versi penawaran. Pertanyaan berikut biasanya membuka perbedaan yang tersembunyi:
 
-## Red flag dan biaya yang sering tersembunyi
+1. Data apa yang dipakai untuk analisis arus, kapasitas, kecepatan, jumlah unit, dan ukuran kinerja? Mana yang hasil survei dan mana yang asumsi?
+2. Apa yang termasuk dalam satuan harga: per unit, per kunjungan, per tahap, atau gabungan pekerjaan?
+3. Pekerjaan sipil, listrik, komunikasi, proteksi kebakaran, pengangkutan, alat bantu, dan pembersihan masuk atau dikecualikan?
+4. Bagaimana penyedia menangani kondisi ruang luncur, pit, overhead, dan daya yang ternyata berbeda dari gambar?
+5. Uji, inspeksi, pengukuran, dan dokumen penerimaan apa yang disediakan, dengan siapa sebagai saksi?
+6. Siapa penanggung jawab keselamatan, koordinasi area kerja, isolasi energi, dan perlindungan pengguna gedung?
+7. Kompetensi dan otorisasi apa yang dimiliki personel, dan bagaimana rekamannya diverifikasi? Rujukan praktik kerja aman dapat dibandingkan dengan [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015) serta status terkini [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026). (Jika tautan pertama tidak tersedia, minta penyedia menunjukkan sumber hukum yang berlaku.)
+8. Apa rencana akses, perlindungan dari benda jatuh, pengendalian orang di bawah, dan kesiapan penyelamatan? Persyaratan spesifik perlu ditinjau terhadap [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016) dan aturan terbarunya.
+9. Jika terjadi gangguan atau kondisi darurat, siapa yang memimpin komunikasi dan evakuasi, dan rekaman latihan atau kontak bantuan apa yang tersedia? Kerangka komando dan komunikasi dapat dibandingkan dengan [ISO 22320:2018](https://www.iso.org/standard/67851.html) dan layanan [PSC 119 Kementerian Kesehatan](https://kemkes.go.id/id/layanan/psc-119); keduanya bukan skrip khusus gedung Anda.
+10. Kapan harga berubah, siapa menyetujui perubahan, dan bagaimana dampaknya terhadap jadwal serta penerimaan?
 
-- **Purpose:** Jelaskan tanda scope kabur, klaim tanpa bukti, serta biaya akses, tunggu, rework, atau handover.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mintalah jawaban tertulis, bukan hanya presentasi. Jika penyedia belum dapat menjawab karena survei belum dilakukan, ubah baris itu menjadi biaya survei atau tanda ketidakpastian, bukan angka nol.
+
+## Tanda bahaya dan biaya yang sering tersembunyi
+
+Tanda bahaya paling umum adalah harga tunggal tanpa kuantitas, kapasitas atau kecepatan tanpa kondisi gedung, klaim sertifikat tanpa nomor dan ruang lingkup, serta janji kinerja tanpa metode uji. Dokumen pemeriksaan elevator lama, stiker perawatan, atau pernyataan vendor juga bukan bukti lengkap bahwa aset saat ini layak digunakan. Rujukan pemeriksaan dan pengujian elevator pada [Permenaker No. 6 Tahun 2017](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf) perlu dibaca bersama status aturan terkini, riwayat aset, temuan, dan rekaman perawatan.
+
+Biaya yang kerap terlupakan mencakup kunjungan tambahan, waktu tunggu akses, pemindahan material, perlindungan area publik, pekerjaan sementara, koordinasi dengan kontraktor lain, pengujian ulang, perbaikan akibat data awal yang keliru, pemulihan setelah gangguan, dan penyimpanan dokumen. Panduan [ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) serta [panduan lima langkah penilaian risiko ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) mendorong siklus identifikasi, pengendalian, dan peninjauan; keduanya tidak memberi persentase cadangan yang bisa dipakai untuk semua proyek.
+
+Susun cadangan biaya dari daftar risiko yang dapat ditelusuri: tulis pemicu, pemilik tindakan, indikator bahwa risiko terjadi, dan cara menyetujui penggunaan dana. Jangan menambahkan persentase universal tanpa dasar data. Untuk antarmuka kebakaran, bedakan pencegahan, deteksi, notifikasi, pengendalian, evakuasi, pemulihan, dan rekaman pemeliharaan; lihat ringkasan [standar keselamatan kebakaran ISO](https://www.iso.org/sectors/building-construction/fire-safety) dan [Permen PUPR No. 26/PRT/M/2008](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), lalu konfirmasi aturan daerah yang berlaku.
 
 ## Penerimaan, serah terima, dan keputusan akhir
 
-- **Purpose:** Tentukan siapa memeriksa apa, rekaman yang disimpan, dan kapan pembayaran/acceptance layak.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengukur dan Menyusun Anggaran Traffic analysis, capacity, speed, quantity, and service performance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Anggaran menjadi dapat dipertanggungjawabkan ketika setiap pembayaran dikaitkan dengan keluaran yang dapat diperiksa. Buat matriks sederhana: keluaran, pemeriksa, bukti, kriteria, dan tindakan jika belum terpenuhi. Contohnya, pemeriksaan dimensi dan kondisi dilakukan oleh pihak yang ditunjuk dengan gambar survei; pengujian fungsi dicatat dalam berita acara; dokumen as-built, daftar suku cadang, instruksi, dan pelatihan diserahkan kepada pemilik; sedangkan perubahan pekerjaan disetujui sebelum biaya dikeluarkan.
 
-## Objection or shortcut to address
+Jangan menyamakan “alat menyala” dengan kinerja layanan yang diterima. Rated load, ukuran kabin, atau keluaran kalkulator lalu lintas tidak membuktikan mutu layanan, struktur, operasi kebakaran, aksesibilitas, penyelamatan, atau penerimaan otoritas. Untuk perlindungan kebakaran dan penghuni, koordinasikan pemeriksaan dengan disiplin bangunan dan pihak berwenang. Untuk pekerjaan angkat dan peralatan bantu, identitas alat, operator, aksesori, kondisi tanah, inspeksi, dan otorisasi membuktikan hal yang berbeda; rujukan keselamatan alat angkat [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020) tidak menggantikan rencana angkat proyek.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Simpan versi lembar ukur, penawaran, klarifikasi, persetujuan perubahan, hasil uji, dan berita acara dengan pemilik serta tanggal yang jelas. Rekaman kesehatan atau identitas tidak perlu dimasukkan ke folder komersial umum. Jika hasil pemeriksaan menyentuh desain, kebakaran, listrik, struktur, atau keselamatan kerja, minta tinjauan profesional yang kompeten sebelum menyetujui pembayaran atau penggunaan.
 
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Kesimpulannya, ukur kebutuhan dan kondisi gedung, samakan format kuantitas, pisahkan inklusi dan pengecualian, lalu tetapkan bukti penerimaan sebelum membandingkan angka. Sobat Elevator.co.id, langkah berikutnya adalah mengirim satu lembar input dan sepuluh pertanyaan di atas kepada penyedia, meminta survei bila data belum ada, dan menandai setiap asumsi yang mengubah biaya. Aturan kerjanya sederhana: **tidak ada angka anggaran yang dianggap final sampai data pengukuran, pemilik risiko, dan bukti penerimaan tertulis serta ditinjau tenaga ahli proyek.**

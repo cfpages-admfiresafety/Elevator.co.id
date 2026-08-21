@@ -3,7 +3,8 @@ article_id: ELV-01-07
 title: "Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan"
 slug: "diagnosis-masalah-dasar-elevator-istilah-sejarah-dan-system-map-gejala-penyebab-dan-batas-perbaikan"
 description: "Pembaca dapat membedakan gejala dari penyebab, mengumpulkan bukti awal, dan mengenali stop condition."
-status: outline
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-03-22"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,62 +16,22 @@ final_route: "/artikel/diagnosis-masalah-dasar-elevator-istilah-sejarah-dan-syst
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/80553.html"
   - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
   - "https://www.iso.org/standard/73072.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan
 
-## Assignment lock
+Halo, Teman Elevator.co.id! Ketika elevator berhenti di lantai yang salah, berbunyi, atau terasa tidak nyaman, godaan paling cepat adalah menebak komponen yang rusak lalu langsung menggantinya. Cara itu sering membuat biaya membesar karena gejala belum tentu menunjuk ke penyebab. Jawaban singkatnya: catat gejala secara spesifik, petakan sistem yang terlibat, singkirkan risiko langsung, lalu minta pemeriksaan kompeten sebelum menyentuh bagian yang berbahaya.
 
-- **Writer task:** Expand this file into one complete article answering: “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”
-- **Reader and situation:** Pemilik atau teknisi yang menghadapi cacat, alarm, penurunan fungsi, atau keluhan pengguna.
-- **Reader outcome:** Pembaca dapat membedakan gejala dari penyebab, mengumpulkan bukti awal, dan mengenali stop condition.
-- **Primary intent:** Mengisolasi gejala dan kemungkinan akar penyebab masalah Dasar elevator, istilah, sejarah, dan system map melalui urutan pemeriksaan aman.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Teman Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Kawan Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menggantikan diagnosis profesional atau mengulang pencegahan; pencegahan dimiliki ELV-01-06, keputusan renewal dimiliki ELV-01-08.
-- **Final public route:** `/artikel/diagnosis-masalah-dasar-elevator-istilah-sejarah-dan-system-map-gejala-penyebab-dan-batas-perbaikan.html`
-- **Appointed CMS date:** `2025-03-22` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Peta sistem (system map) berarti gambaran hubungan antara ruang mesin atau penggerak, panel kendali, perangkat keselamatan, kabin, pintu, sensor, catu daya, dan jalur komunikasi. Dengan peta ini, Anda dapat membedakan “apa yang terlihat” dari “apa yang mungkin menyebabkannya”. Artikel ini membantu mengumpulkan bukti awal dan menentukan kapan pemeriksaan harus berhenti; ini bukan pengganti diagnosis profesional, panduan pencegahan, atau keputusan memperbarui seluruh elevator.
 
-## Opening instructions
+![Ilustrasi jasa maintenance elevator](/wp-content/uploads/2020/07/jasa-maintenance-elevator.png)
+Ilustrasi umum dari aset lokal elevator.co.id; bukan dokumentasi proyek tertentu.
 
-- Open with the exact short salutation: **“Halo, Teman Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Elevator.co.id`, `Sobat Elevator.co.id`, or `Kawan Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,228 +42,62 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa maintenance elevator` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-09
-
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-11
-
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
-
-### KR-12
-
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
-
-### KR-37
-
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
-
-### KR-38
-
-- **Original sources:** [ISO 8100-20:2018](https://www.iso.org/standard/73072.html).
-- **Purpose for this article:** Ground global essential safety requirements, risk reduction, users, maintenance/inspection personnel, components, functions, and lifecycle decisions.
-- **Safe grounded facts:** An interlock, governor, brake, alarm, rescue key, or maintenance contract alone does not prove the complete system or operational safety.
-- **Limits:** Verify the complete safety chain, interfaces, current risk assessment, test evidence, competent roles, maintenance/inspection regime, change history, emergency plan, and authority requirements.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/maintenance-elevator/jasa-perbaikan-lift/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/maintenance-elevator-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-01-05` → `/artikel/tahapan-pekerjaan-dasar-elevator-istilah-sejarah-dan-system-map-persiapan-pelaksanaan-dan-kontrol-mutu.html` — Tahapan Pekerjaan Dasar elevator, istilah, sejarah, dan system map: Persiapan, Pelaksanaan, dan Kontrol Mutu
-- `ELV-01-06` → `/artikel/checklist-inspeksi-dan-perawatan-dasar-elevator-istilah-sejarah-dan-system-map.html` — Checklist Inspeksi dan Perawatan Dasar elevator, istilah, sejarah, dan system map
-- `ELV-01-08` → `/artikel/kapan-dasar-elevator-istilah-sejarah-dan-system-map-diperbaiki-dimodernisasi-atau-diganti.html` — Kapan Dasar elevator, istilah, sejarah, dan system map Diperbaiki, Dimodernisasi, atau Diganti
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bagian ini penting karena laporan “elevator rusak” terlalu kabur untuk mengarahkan pemeriksaan. Kita akan mengubah keluhan menjadi catatan yang bisa diuji, sehingga teknisi tidak mengejar dugaan yang salah.
+
+Tulis apa yang benar-benar terlihat atau terdengar: kabin tidak bergerak, berhenti di antara lantai, pintu membuka kembali, bunyi gesekan, getaran, bau terbakar, atau alarm tidak merespons. Tambahkan lokasi, waktu, frekuensi, kondisi muatan, dan apakah masalah muncul setelah listrik padam atau pekerjaan lain. “Bergetar” adalah gejala; “bearing aus” masih dugaan yang memerlukan bukti.
+
+Contoh catatan yang berguna: “Pada pukul 09.10, kabin dari lantai tiga menuju lantai satu berhenti di lantai dua, pintu tidak membuka, alarm terdengar, dan kejadian terulang dua kali tanpa penumpang.” Catatan seperti ini memungkinkan perbandingan dengan log kendali dan riwayat gangguan. Jangan menguji dengan menaikkan muatan atau membuka panel hanya untuk membuat gejala muncul kembali.
+
+Teman Elevator.co.id, pisahkan tiga kolom: observasi, dugaan mekanisme, dan bukti yang dibutuhkan. Jika hanya ada kolom “penyebab”, orang cenderung menganggap tebakan sebagai fakta. Simpan foto tampilan alarm atau nomor kode bila aman dan tidak memuat data pribadi; jangan menghapus log sebelum disalin oleh pihak berwenang.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebelum mencari akar penyebab, pastikan orang tidak terpapar bahaya yang sedang berlangsung. Hasil saringan ini menentukan apakah elevator boleh tetap digunakan, dibatasi, atau harus dihentikan sambil menunggu pemeriksaan.
 
-## Kemungkinan mekanisme
+Batasi akses dan pasang pemberitahuan bila pintu tidak mengunci, kabin tidak rata dengan lantai, ada suara atau panas tidak biasa, bau terbakar, air masuk, atau alarm dan komunikasi darurat gagal. Jangan memasukkan tangan ke celah pintu, masuk ke ruang atas kabin, atau mencoba membebaskan penumpang dengan cara improvisasi. Pekerjaan pada energi listrik dan bagian bergerak hanya untuk personel berwenang dengan prosedur pengendalian energi yang sesuai.
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+ILO menjelaskan pengendalian risiko sebagai proses mengenali bahaya, menilai risiko, memilih pengendalian, lalu memeriksa apakah pengendalian itu efektif; matriks umum tidak otomatis menentukan risiko di lokasi Anda ([panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks)). Jika ada orang terjebak atau cedera, utamakan komunikasi dan layanan darurat setempat. [NEEDS REVIEW: batas isolasi energi, prosedur penyelamatan, dan otoritas penggunaan harus diverifikasi terhadap instalasi serta aturan yang berlaku.]
+
+## Kemungkinan mekanisme dalam peta sistem
+
+Setelah kondisi dibuat aman, peta sistem membantu mengelompokkan kemungkinan tanpa menyatakan diagnosis. Setiap kelompok menjawab pertanyaan berbeda dan membutuhkan bukti berbeda.
+
+Kelompok pertama adalah tenaga dan kendali: pasokan terputus, panel menampilkan kode, atau perintah dari tombol tidak diterima. Kelompok kedua adalah pintu dan interlock, yaitu pengaman yang memastikan pintu tertutup sebelum gerak; pintu yang memantul bisa berkaitan dengan sensor, penghalang, atau penyelarasan, bukan otomatis motor. Kelompok ketiga adalah gerak mekanis seperti rem, traksi, rel, atau beban yang tidak seimbang. Kelompok keempat adalah komunikasi dan keselamatan, misalnya alarm, lampu darurat, atau sensor batas.
+
+Sejarah perubahan juga bagian dari peta. Catat kapan komponen diganti, kapan gangguan pertama muncul, dan apakah ada renovasi, perubahan pasokan, atau perubahan pola pemakaian. Dua gejala yang muncul sesudah satu perubahan dapat memiliki hubungan, tetapi urutan waktu saja belum membuktikan sebab. Standar keselamatan elevator menempatkan komponen dan fungsi sebagai bagian dari rantai sistem; satu interlock, rem, atau kontrak perawatan saja tidak membuktikan keselamatan keseluruhan ([ISO 8100-20](https://www.iso.org/standard/73072.html)).
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan yang baik mengurangi paparan dan menghindari pengujian berulang. Mulailah dari dokumen dan pengamatan non-invasif, baru lanjut ke pengukuran yang memang direncanakan oleh personel kompeten.
+
+Pertama, cocokkan identitas aset, rute lantai, jenis kendali, dan riwayat gangguan. Kedua, bandingkan waktu kejadian dengan log panel, status pintu, dan catatan pasokan. Ketiga, lakukan inspeksi visual dari area aman: kondisi pintu, indikator, kebocoran, suara, dan akses. Keempat, bila diperlukan, teknisi berwenang menyusun uji terkontrol dengan alat ukur, batas penerimaan, dan rencana menghentikan uji.
+
+Dokumen kompetensi juga perlu dibaca secara tepat. BNSP menjelaskan skema sertifikasi dan asesmen, sedangkan panduan sistem manajemen menekankan kompetensi, kesadaran, serta kendali pekerjaan; kartu atau logo tanpa verifikasi lingkup tidak membuktikan seseorang berwenang untuk pekerjaan elevator tertentu ([BNSP](https://bnsp.go.id/), [catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf)). Minta identitas personel, lingkup tugas, dan pengawasan yang berlaku, bukan sekadar foto sertifikat.
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil pengukuran adalah fakta tentang kondisi saat diuji, bukan langsung penyebab dan bukan keputusan boleh beroperasi. Tanyakan empat hal: apa yang diukur, dengan alat dan kondisi apa, dibandingkan dengan kriteria mana, dan siapa yang berwenang menafsirkan.
+
+Misalnya, kode gangguan pintu yang hilang setelah reset menunjukkan sistem kembali merespons, tetapi tidak membuktikan masalah selesai. Jika gejala muncul lagi pada kondisi tertentu, hubungan itu menjadi petunjuk yang perlu diuji, bukan izin mengganti modul secara acak. Simpan nilai sebelum dan sesudah tindakan, waktu, konfigurasi, serta identitas penguji agar hasil dapat ditelusuri.
+
+Permenaker tentang keselamatan dan kesehatan kerja elevator dan eskalator memuat kebutuhan pemeriksaan, pengujian, dan dokumentasi; dokumen lama atau stiker perawatan saja tidak otomatis menjadi bukti kondisi terkini ([Permenaker No. 6 Tahun 2017](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf)). [NEEDS REVIEW: status konsolidasi dan persyaratan lokal terbaru harus diperiksa oleh pihak yang berwenang sebelum keputusan operasional.]
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Diagnosis Masalah Dasar elevator, istilah, sejarah, dan system map: Gejala, Penyebab, dan Batas Perbaikan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pilih tindakan berdasarkan bukti dan tingkat risiko, bukan umur komponen semata. Kontrol sementara dapat berupa pembatasan penggunaan dan pemberitahuan yang jelas. Pemantauan cocok hanya bila fungsi aman, gejala ringan, dan ada batas waktu serta pemilik tindak lanjut. Perbaikan memerlukan diagnosis, suku cadang yang sesuai, uji pascaperbaikan, dan catatan hasil. Penggantian atau modernisasi adalah keputusan terpisah yang membutuhkan evaluasi aset dan biaya siklus hidup.
 
-## Objection or shortcut to address
+Eskalasi segera bila gejala menyangkut pintu atau penguncian, gerak tak terkendali, bau terbakar, air dekat listrik, kegagalan komunikasi darurat, atau kejadian berulang yang tidak dapat dijelaskan. Sobat Elevator.co.id, siapkan paket untuk teknisi: kronologi, foto aman, kode alarm, riwayat perubahan, log perawatan, dan kondisi saat kejadian. Paket ini mempercepat pemeriksaan tanpa mendorong Anda melakukan pekerjaan berisiko.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Mengapa reset berulang bukan solusi diagnosis
 
-## Required conclusion
+Reset sering dipilih karena cepat dan elevator tampak kembali berjalan. Namun reset dapat menghapus petunjuk, membuat gejala tertunda, dan memberi kesan palsu bahwa penyebab sudah hilang. Alternatif yang lebih dapat dipertanggungjawabkan adalah mencatat kondisi sebelum reset, memastikan penumpang aman, lalu membiarkan personel kompeten memeriksa log dan penyebab pemicu. Jika reset diwajibkan oleh prosedur pabrikan, ikuti prosedur itu dan dokumentasikan hasilnya; jangan menjadikannya pengganti pemeriksaan.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Langkah berikutnya untuk pemilik atau teknisi
 
-## Draft completion checklist
+Diagnosis dasar yang berguna selalu dimulai dari gejala yang terukur, dilanjutkan peta sistem, saringan risiko, dan pemeriksaan bertahap. Ketika bukti belum cukup atau muncul kondisi berhenti, jangan mengubah komponen dan jangan menyimpulkan layak operasi. Hubungi penyedia pemeriksaan yang lingkup dan kompetensinya dapat diverifikasi; bila Anda membutuhkan jalur layanan, lihat [jasa perbaikan elevator](/maintenance-elevator/jasa-perbaikan-lift/) sebagai titik awal pertanyaan, bukan sebagai bukti bahwa penyebab sudah diketahui.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Kawan Elevator.co.id, kirimkan kronologi dan dokumen pendukung, lalu tanyakan: “Gejala apa yang sudah dibuktikan, mekanisme apa yang masih dugaan, dan pemeriksaan apa yang menentukan keputusan?” Aturan operasionalnya sederhana: bila keselamatan, bukti, atau kewenangan belum jelas, hentikan pengujian dan serahkan diagnosis kepada personel kompeten. Artikel ini tidak menggantikan diagnosis profesional, tidak mengulang panduan pencegahan, dan tidak menentukan kapan elevator harus diperbarui.
