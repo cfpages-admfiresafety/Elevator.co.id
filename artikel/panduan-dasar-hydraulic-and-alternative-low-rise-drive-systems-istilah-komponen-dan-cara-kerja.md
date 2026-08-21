@@ -2,8 +2,9 @@
 article_id: ELV-06-01
 title: "Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja"
 slug: "panduan-dasar-hydraulic-and-alternative-low-rise-drive-systems-istilah-komponen-dan-cara-kerja"
-description: "Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Hydraulic and alternative low-rise drive systems relevan."
-status: outline
+description: "Panduan untuk pembaca baru agar mengenali istilah, komponen, hubungan kerja, dan batas penggunaan sistem penggerak hydraulic untuk bangunan bertingkat rendah."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-08-06"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,63 +15,11 @@ reader_address: "Kawan Elevator.co.id"
 final_route: "/artikel/panduan-dasar-hydraulic-and-alternative-low-rise-drive-systems-istilah-komponen-dan-cara-kerja.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008"
-  - "https://www.iso.org/sectors/building-construction/fire-safety"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/80553.html"
   - "https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf"
-  - "https://www.iso.org/standard/73072.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”
-- **Reader and situation:** Pembaca baru yang memerlukan model mental benar sebelum menentukan kebutuhan.
-- **Reader outcome:** Pembaca dapat mengenali istilah, komponen, hubungan antarkomponen, dan kapan Hydraulic and alternative low-rise drive systems relevan.
-- **Primary intent:** Memahami definisi, komponen, mekanisme, dan batas sistem Hydraulic and alternative low-rise drive systems.
-- **Reader community:** `Elevator.co.id`
-- **Primary friendly address:** `Kawan Elevator.co.id`
-- **Natural variants:** `Sobat Elevator.co.id` and `Teman Elevator.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak membandingkan opsi atau menetapkan spesifikasi; intent tersebut dimiliki ELV-06-02 dan ELV-06-03.
-- **Final public route:** `/artikel/panduan-dasar-hydraulic-and-alternative-low-rise-drive-systems-istilah-komponen-dan-cara-kerja.html`
-- **Appointed CMS date:** `2025-08-06` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Elevator.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Elevator.co.id`, `Sobat Elevator.co.id`, or `Teman Elevator.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -81,222 +30,90 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Low Rise Building` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Kawan Elevator.co.id! Saat melihat pilihan lift untuk bangunan bertingkat rendah, pembaca baru sering mengira semua sistem penggerak bekerja dengan motor dan tali yang sama. Kebingungan ini bisa membuat diskusi kebutuhan berubah menjadi tebak-tebakan spesifikasi, padahal keputusan awal yang lebih penting adalah memahami bagaimana kabin digerakkan dan bukti apa yang perlu ditanyakan.
 
-### KR-01
+Jawaban singkatnya: sistem hydraulic mengangkat kabin dengan tekanan fluida pada silinder, sedangkan sistem penggerak alternatif dapat memakai susunan mekanis atau listrik yang berbeda. Istilah seperti pompa, katup, silinder, piston, pengarah, dan pengaman menjelaskan bagian dari rantai kerja itu. Artikel ini membantu Anda membangun model mental, mengenali hubungan antarkomponen, lalu menentukan kapan pembahasan harus diteruskan ke data proyek dan pemeriksaan tenaga kompeten. Artikel ini tidak membandingkan opsi atau menetapkan spesifikasi.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `elevator.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+![Ilustrasi Low Rise Building](/wp-content/uploads/2020/08/Low-Rise-Building.png)
 
-### KR-05
+Aset lokal proyek; bukan dokumentasi proyek tertentu.
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+## Apa yang dimaksud sistem penggerak hydraulic untuk bangunan rendah?
 
-### KR-19
+Sebelum menghafal nama komponen, kita perlu memahami arti “menggerakkan” lift: sistem harus menghasilkan gaya, meneruskannya ke kabin, mengatur arah dan kecepatan, lalu menghentikan gerak secara terkendali. Bagian ini mencegah anggapan bahwa satu pompa saja sudah mewakili seluruh sistem.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Pada sistem hydraulic, motor memutar pompa untuk mengalirkan fluida ke silinder. Tekanan fluida mendorong piston, yaitu batang yang bergerak di dalam silinder, dan gerak piston diteruskan ke kabin melalui susunan langsung atau tidak langsung. Ketika kabin turun, katup mengatur kembalinya fluida ke tangki sehingga laju turun tidak semata-mata ditentukan oleh berat kabin.
 
-### KR-20
+Mekanisme tersebut menjelaskan mengapa ruang mesin, jalur pipa, kondisi fluida, dan struktur penopang ikut menentukan hasil. Komponen yang tampak baik belum membuktikan seluruh rantai bekerja sesuai rancangan. Tanyakan diagram sistem, identitas unit, catatan pemeriksaan, dan batas penggunaan yang ditetapkan untuk proyek tertentu.
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Istilah “low-rise” berarti bangunan dengan perjalanan kabin relatif pendek menurut kebutuhan proyek, bukan angka universal yang otomatis berlaku untuk semua lift. Tinggi perjalanan, jumlah pemberhentian, beban, frekuensi, lingkungan, dan aturan setempat harus dibaca bersama. [NEEDS TECHNICAL REVIEW: batas penerapan sistem harus dikonfirmasi dari data proyek, rancangan, dan persyaratan Indonesia yang berlaku.]
 
-### KR-21
+## Komponen utama dan hubungan kerjanya
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Nama bagian sering muncul terpisah di penawaran atau laporan servis. Dengan melihat urutannya, pembaca bisa membedakan fungsi setiap bagian dan tahu pertanyaan lanjutan yang masuk akal.
 
-### KR-23
+### Tangki, pompa, dan motor: sumber aliran fluida
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Tangki menyimpan fluida, motor menyediakan putaran, dan pompa mengubah putaran itu menjadi aliran bertekanan. Sederhananya, ketiganya seperti sumber tenaga dan pengirim tenaga. Jika level atau kondisi fluida tidak sesuai, pompa dapat menerima kondisi yang berbeda dari rancangan dan kinerja sistem ikut berubah.
 
-### KR-24
+Contoh pemeriksaan yang berguna adalah mencocokkan identitas motor-pompa dengan gambar dan catatan pemeliharaan, bukan menyimpulkan cukup dari suara mesin. Tanyakan juga siapa yang berwenang menilai kebocoran atau kontaminasi fluida. Jangan membuka rangkaian bertekanan sebagai uji coba mandiri.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+### Katup dan pengendali: mengatur arah serta laju
 
-### KR-02
+Katup mengarahkan fluida menuju silinder saat naik dan mengatur aliran balik saat turun. Pengendali menerima perintah dari tombol atau sistem kendali, kemudian mengatur urutan operasi sesuai rancangan. Katup yang macet, setelan yang berubah, atau sinyal yang keliru dapat mengubah respons kabin meski motor masih menyala.
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Karena itu, catatan “katup normal” perlu dibaca bersama hasil uji dan kondisi saat diuji. Mintalah penjelasan tentang fungsi katup, cara pengujiannya, serta tindakan bila ditemukan respons yang tidak sesuai. Hindari mengubah setelan berdasarkan perkiraan atau meniru angka dari unit lain.
 
-### KR-09
+### Silinder dan piston: mengubah tekanan menjadi gerak
 
-- **Original sources:** [Permenaker No. 9 Tahun 2016](https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground avoidance, collective protection, access, falling objects, system evidence, competence, and rescue readiness.
-- **Safe grounded facts:** Worker fall prevention, object control, access, anchor/lifeline design, equipment compatibility, inspection, weather, people below, and rescue are separate systems.
-- **Limits:** No anchor capacity, spacing, clearance, scaffold design, equipment selection, exclusion distance, or rescue procedure without current law and competent design.
+Silinder adalah rumah bagi piston. Tekanan pada permukaan piston menghasilkan gaya, lalu gaya itu diteruskan ke kabin. Pada susunan langsung, gerak piston lebih dekat dengan gerak kabin; pada susunan tidak langsung, terdapat elemen pengganda atau pengarah yang mengubah hubungan geraknya. Detail susunan harus merujuk gambar unit, bukan asumsi dari nama produknya.
 
-### KR-10
+Perhatikan juga penyangga, sambungan, dan area tempat piston bergerak. Kebocoran atau keausan tidak boleh didiagnosis hanya dari satu gejala seperti kabin terasa lambat. Data perjalanan, kondisi beban, riwayat gangguan, dan pemeriksaan komponen diperlukan sebelum menyimpulkan penyebab.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+### Kabin, rel pengarah, dan pintu
 
-### KR-11
+Kabin membawa penumpang atau barang; rel pengarah menjaga jalur gerak; pintu dan penguncinya mengendalikan akses ke ruang perjalanan. Ketiganya bukan aksesori terpisah dari penggerak. Gerak yang dihasilkan silinder tetap harus diterjemahkan menjadi perjalanan kabin yang dipandu dan akses yang terkendali.
 
-- **Original sources:** [Permenaker No. 12 Tahun 2015](https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground competence, de-energization, hazardous-energy control, temporary supply, wet conditions, inspection, and emergency boundaries.
-- **Safe grounded facts:** Source identification, one-line documentation, isolation, absence-of-voltage verification, grounding/protection, environment, equipment condition, and authorization are distinct evidence.
-- **Limits:** No live-work, switching, test, protection setting, grounding, arc-energy, temporary wiring, or design procedure.
+Saat mengecek, bedakan pertanyaan “apakah kabin bergerak?” dari “apakah kabin, rel, dan pintu menjalankan fungsi yang dirancang?”. Standar keselamatan lift seperti ISO 8100-1 memiliki batas ruang lingkup dan tidak menggantikan verifikasi unit, tanggal instalasi, adopsi Indonesia, serta pemeriksaan aktual; rujukan standarnya dapat dilihat di [catatan ISO 8100-1](https://www.iso.org/standard/80553.html).
 
-### KR-12
+### Pengaman dan rangkaian penghentian
 
-- **Original sources:** [Permen PUPR No. 26/PRT/M/2008 record](https://peraturan.bpk.go.id/Details/104475/permen-pupr-no-26prtm2008-tahun-2008), [ISO fire-safety standards overview](https://www.iso.org/sectors/building-construction/fire-safety).
-- **Purpose for this article:** Connect prevention, detection, notification, containment, suppression, egress, impairment, maintenance, and emergency organization.
-- **Safe grounded facts:** A device certificate, installation record, commissioning test, inspection, impairment log, evacuation drill, and authority approval prove different layers.
-- **Limits:** Confirm current PUPR/local rules and full standards; no spacing, capacity, hydraulic, alarm, egress, fire-rating, occupancy, or compliance conclusion.
+Pengaman mencakup perangkat dan rangkaian yang menghentikan atau mencegah gerak ketika kondisi tertentu tidak terpenuhi. Tombol berhenti, sakelar batas, pengunci pintu, dan fungsi penyelamatan dapat berada pada bagian berbeda, tetapi keputusan keselamatan bergantung pada hubungan keseluruhan sistem.
 
-### KR-16
+Jangan menganggap satu lampu indikator atau satu sertifikat komponen sebagai bukti semua fungsi aman. Peraturan dan pemeriksaan lift di Indonesia memiliki konteks peran, pengujian, dan dokumentasi; dokumen lama tidak otomatis menjadi bukti kondisi saat ini. Gunakan [dokumen Permenaker No. 6 Tahun 2017](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf) hanya sebagai rujukan awal, lalu minta pemeriksaan dan catatan aktual dari pihak berwenang.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+## Bagaimana urutan kerja dibaca dari tombol sampai kabin?
 
-### KR-18
+Urutan berikut memberi cara berpikir saat membaca diagram atau mendengar penjelasan teknisi. Ini bukan prosedur servis dan tidak menetapkan setelan untuk unit tertentu.
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+Pertama, perintah perjalanan diterima oleh pengendali setelah syarat awal, seperti kondisi pintu dan rangkaian pengaman, terpenuhi. Kedua, motor menggerakkan pompa dan katup mengarahkan fluida ke silinder. Ketiga, piston mendorong susunan penggerak sehingga kabin bergerak di sepanjang rel. Keempat, sensor posisi dan pengendali mengurangi atau menghentikan aliran saat mendekati lantai tujuan. Kelima, pintu baru mendapat perintah membuka ketika kondisi berhenti dan penguncian memenuhi rancangan.
 
-### KR-36
+Urutan ini membantu menemukan pertanyaan yang tepat. Jika motor terdengar tetapi kabin tidak bergerak, masalah bisa berada pada aliran, katup, pengaman, atau transmisi gaya; suara motor saja tidak menunjuk satu penyebab. Jika kabin berhenti tetapi pintu tidak membuka, rantai kendali dan penguncian perlu diperiksa sebagai satu sistem. Catat gejala, waktu, beban, dan kode gangguan untuk teknisi; jangan melakukan pengujian berisiko sendiri.
 
-- **Original sources:** [ISO 8100-1:2026](https://www.iso.org/standard/80553.html).
-- **Purpose for this article:** Ground lift scope, persons/property safeguarded, construction, installation, electrical equipment, indoor/weather-protected boundary, and exclusions.
-- **Safe grounded facts:** A citation to ISO 8100-1:2019, a component certificate, or a generic elevator label is not current proof for an existing lift, accessibility, fire/evacuation use, seismic use, outdoor exposure, or installation work.
-- **Limits:** Verify current Indonesian adoption/requirements, exact lift and installation date/scope, full 2026 standard, local building/fire/accessibility duties, design, examinations/tests, and authority acceptance.
+## Kapan sistem hydraulic atau penggerak alternatif perlu dikaji lebih lanjut?
 
-### KR-37
+Kaji lebih lanjut ketika data proyek belum lengkap, misalnya tinggi perjalanan, jumlah lantai, pola penggunaan, kondisi ruang, akses perawatan, atau kebutuhan evakuasi belum ditetapkan. Istilah “relevan” berarti sistem dapat dipelajari terhadap kebutuhan itu, bukan berarti sudah cocok atau disetujui.
 
-- **Original sources:** [Permenaker 6/2017 official PDF](https://peraturan.bpk.go.id/Home/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground elevator/escalator K3, roles, examination/testing, inspection, documentation, maintenance, and current consolidated status.
-- **Safe grounded facts:** An old inspection document, maintenance sticker, vendor statement, or 2017 text alone is not complete current proof of compliance or fitness for service.
-- **Limits:** Use consolidated current text, actual asset/installation history, responsible company and competent personnel, examination/testing records, defects, maintenance, and authority evidence.
+Kawan Elevator.co.id, buatlah lembar pertanyaan sederhana: siapa pengguna, berapa titik berhenti, lingkungan apa yang dihadapi, bagaimana akses pemeriksaan, dan dokumen apa yang akan diserahkan. Sertakan gambar tata letak, identitas unit, riwayat perubahan, serta penanggung jawab keputusan. Untuk aspek keselamatan, kompetensi, pemeriksaan, dan kewajiban, mintalah tinjauan profesional sesuai yurisdiksi; artikel pengantar tidak dapat memberikan persetujuan proyek.
 
-### KR-38
+## Prasyarat, tanda berhenti, dan pemeriksaan
 
-- **Original sources:** [ISO 8100-20:2018](https://www.iso.org/standard/73072.html).
-- **Purpose for this article:** Ground global essential safety requirements, risk reduction, users, maintenance/inspection personnel, components, functions, and lifecycle decisions.
-- **Safe grounded facts:** An interlock, governor, brake, alarm, rescue key, or maintenance contract alone does not prove the complete system or operational safety.
-- **Limits:** Verify the complete safety chain, interfaces, current risk assessment, test evidence, competent roles, maintenance/inspection regime, change history, emergency plan, and authority requirements.
+Sebelum pekerjaan atau perubahan diteruskan, harus ada rancangan dan identitas sistem yang dapat ditelusuri, pihak kompeten yang ditunjuk, metode pemeriksaan, serta cara merekam hasil. Bila salah satunya belum ada, berhenti pada tahap pengumpulan data. [NEEDS PROJECT EVIDENCE: kewenangan pemeriksaan, status sertifikasi, dan persyaratan lokal harus dikonfirmasi untuk unit serta lokasi tertentu.]
 
-## Evidence gates
+Tanda berhenti yang masuk akal meliputi kebocoran yang belum dinilai, gerak kabin tidak konsisten, pintu tidak mengunci, dokumen unit tidak cocok, atau perubahan wiring tanpa catatan. Tanda itu bukan diagnosis akhir; fungsinya memicu isolasi sesuai aturan setempat dan eskalasi ke pihak kompeten. Sobat Elevator.co.id, jangan menghapus gejala dengan mematikan alarm atau mengubah setelan tanpa rekaman dan persetujuan yang tepat.
 
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
+## Kesalahan umum: memilih dari nama teknologi saja
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+Jalan pintas yang sering dipilih adalah bertanya “hydraulic atau alternatif?” lalu langsung meminta harga. Cara ini gagal karena nama teknologi tidak memuat semua batas bangunan, lingkungan, layanan, dan bukti penerimaan. Dua sistem dengan label sama dapat memiliki susunan, usia, pengendali, dan riwayat berbeda.
 
-## Internal-link plan
+Cara yang lebih aman adalah memulai dari kebutuhan dan model mental: gambarkan sumber tenaga, jalur gaya, pengendalian, pengarah, pintu, dan pengaman; kemudian cocokkan dengan dokumen serta pemeriksaan unit. Hasilnya bukan spesifikasi final, melainkan daftar pertanyaan yang dapat dipertanggungjawabkan.
 
-### Existing local routes
+## Langkah berikutnya untuk pembaca
 
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
+Ringkasnya, sistem hydraulic menggunakan pompa dan tekanan fluida untuk mendorong piston, sementara kabin, rel, pintu, pengendali, dan pengaman membentuk rantai kerja yang tidak boleh dinilai terpisah. Penggerak alternatif perlu dibaca dengan cara yang sama: apa sumber gayanya, bagaimana gaya diteruskan, bagaimana gerak dikendalikan, dan apa bukti penghentiannya.
 
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ELV-06-02` → `/artikel/cara-menentukan-kebutuhan-hydraulic-and-alternative-low-rise-drive-systems-sebelum-memilih-solusi.html` — Cara Menentukan Kebutuhan Hydraulic and alternative low-rise drive systems Sebelum Memilih Solusi
-- `ELV-06-03` → `/artikel/perbandingan-opsi-hydraulic-and-alternative-low-rise-drive-systems-kriteria-trade-off-dan-red-flag.html` — Perbandingan Opsi Hydraulic and alternative low-rise drive systems: Kriteria, Trade-off, dan Red Flag
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Panduan Dasar Hydraulic and alternative low-rise drive systems: Istilah, Komponen, dan Cara Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Elevator.co.id!` and uses friendly `Elevator.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Sebelum menentukan kebutuhan, kumpulkan diagram, identitas unit, data perjalanan dan penggunaan, catatan gangguan, serta hasil pemeriksaan terbaru. Ajukan pertanyaan itu kepada pemilik atau pengelola, lalu minta tinjauan tenaga kompeten untuk keputusan desain, perubahan, pengujian, dan penerimaan. Untuk konteks umum tentang layanan situs, Anda dapat kembali ke [beranda Elevator.co.id](/), tetapi keputusan teknis tetap perlu dokumen unit. Teman Elevator.co.id, pegang aturan operasi ini: pahami hubungan komponen lebih dulu, verifikasi kondisi pada unit nyata, dan jangan mengubah penjelasan umum menjadi persetujuan proyek.
